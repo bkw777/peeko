@@ -16,10 +16,10 @@ Solder the Pico to the pins and flush-cut the tops.
 
 # peeko_jy  
 The Jason Yang board (4-layer)  
-![](PCB/out/peeko.jpg)
-![](PCB/out/peeko.top.jpg)
-![](PCB/out/peeko.inner2.jpg)
-![](PCB/out/peeko.bottom.jpg)
+![](PCB/out/peeko_jy.jpg)
+![](PCB/out/peeko_jy.top.jpg)
+![](PCB/out/peeko_jy.inner2.jpg)
+![](PCB/out/peeko_jy.bottom.jpg)
 
 The LevelShifter board is not redrawn yet.
 
