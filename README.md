@@ -1,3 +1,28 @@
+# PEEKO
+
+This is a fork of [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer) with redrawn PCBs
+
+# peeko  
+The normal board  
+![](PCB/out/peeko.jpg)
+![](PCB/out/peeko.2.jpg)
+![](PCB/out/peeko.3.jpg)
+![](PCB/out/peeko.top.jpg)
+![](PCB/out/peeko.bottom.jpg)
+
+# peeko_jy  
+The Jason Yang board (4-layer)  
+![](PCB/out/peeko.jpg)
+![](PCB/out/peeko.top.jpg)
+![](PCB/out/peeko.inner2.jpg)
+![](PCB/out/peeko.bottom.jpg)
+
+The LevelShifter board is not redrawn yet.
+
+
+----
+========================================================================================================
+
 # LogicAnalyzer
 
 ## Downloads
