@@ -23,7 +23,7 @@ The Jason Yang board (4-layer)
 
 The LevelShifter board is not redrawn yet.
 
-The enclosure is not redrawn yet.
+The enclosures are not redrawn yet.
 
 ----
 ----
