@@ -4,6 +4,10 @@ This is a fork of [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyz
 
 # peeko  
 The normal board  
+First solder the Pico pins and all other top-side parts, but not the Pico itself.
+Flush cut the bottoms of the Pi pins, at least where the IDC header will lay.
+Solder the horizontal IDC header and all other bottom-side parts. No need to flush cut any.
+Solder the Pico to the pins and flush-cut the tops.
 ![](PCB/out/peeko.jpg)
 ![](PCB/out/peeko.2.jpg)
 ![](PCB/out/peeko.3.jpg)
@@ -19,6 +23,7 @@ The Jason Yang board (4-layer)
 
 The LevelShifter board is not redrawn yet.
 
+The enclosure is not redrawn yet.
 
 ----
 ----
