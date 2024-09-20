@@ -1778,7 +1778,7 @@
 		(descr "Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J3"
-			(at 5.207 -1.143 270)
+			(at 5.207 -1.143 -90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -2286,7 +2286,7 @@
 		(descr "Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J4"
-			(at 5.207 -1.397 270)
+			(at 5.207 -1.397 -90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -4447,6 +4447,18 @@
 			(justify right mirror)
 		)
 	)
+	(gr_text "30\n\n29"
+		(at 158.75 85.217 270)
+		(layer "B.SilkS")
+		(uuid "5b6011df-09ec-4928-94bd-862f0b3b2f81")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
 	(gr_text "CHAIN"
 		(at 152.4 115.697 -90)
 		(layer "B.SilkS")
@@ -4457,6 +4469,18 @@
 				(thickness 0.15)
 			)
 			(justify left mirror)
+		)
+	)
+	(gr_text "2\n\n1"
+		(at 158.75 123.063 270)
+		(layer "B.SilkS")
+		(uuid "fb8d72b9-41b9-41bd-aeb7-b9387306bab6")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify right mirror)
 		)
 	)
 	(gr_text "Trace lengths assume a horizontal connector.\nTraces are 5.08mm shorter to the odd row."

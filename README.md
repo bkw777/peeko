@@ -2,8 +2,9 @@
 
 This is a fork of [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer) with redrawn PCBs
 
+![](PCB/out/peeko_with_level_shifter.jpg)
+
 # peeko  
-The normal board  
 First solder the Pico pins and all other top-side parts, but not the Pico itself.  
 Flush cut the bottoms of the Pi pins, at least where the IDC header will lay.  
 Solder the horizontal IDC header and all other bottom-side parts. No need to flush cut any.  
@@ -13,17 +14,23 @@ Solder the Pico to the pins and flush-cut the tops.
 ![](PCB/out/peeko.3.jpg)
 ![](PCB/out/peeko.top.jpg)
 ![](PCB/out/peeko.bottom.jpg)
+![](PCB/out/peeko.svg)
+
+# input level shifter
+![](PCB/out/peeko_input_level_shifter.jpg)
+![](PCB/out/peeko_input_level_shifter.top.jpg)
+![](PCB/out/peeko_input_level_shifter.bottom.jpg)
+![](PCB/out/peeko_input_level_shifter.svg)
 
 # peeko_jy  
-The Jason Yang board (4-layer)  
+The Jason Yang version with integrated level-shifting, 4-layer pcb  
 ![](PCB/out/peeko_jy.jpg)
 ![](PCB/out/peeko_jy.top.jpg)
 ![](PCB/out/peeko_jy.inner2.jpg)
 ![](PCB/out/peeko_jy.bottom.jpg)
 
-The LevelShifter board is not redrawn yet.
-
-The enclosures are not redrawn yet.
+Enclosures for these versions are not drawn yet.  
+(The Enclosuders directory still contains the original files that only fit the original gusmanb pcbs.)
 
 ----
 ----
