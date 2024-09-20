@@ -5689,12 +5689,12 @@
 	(symbol
 		(lib_id "000_LOCAL:Jumper_2_Bridged")
 		(at 215.9 82.55 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77882a20-02d5-4861-aced-e8a74725fb91")
 		(property "Reference" "JP1"
 			(at 215.9 77.47 0)
