@@ -685,7 +685,7 @@
 		)
 		(uuid "6643d5ad-80fb-4dbf-aea7-dd87553f786b")
 	)
-	(model "${KIPRJMOD}/000_LOCAL.pretty/3d/HIF3FB-30DA-2.54DSA.stp"
+	(model "${KIPRJMOD}/000_LOCAL.pretty/3d/HIF3FB-30DA-2.step"
 		(offset
 			(xyz -2.9972 11.43 -0.8128)
 		)

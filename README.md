@@ -2,7 +2,9 @@
 
 This is a fork of [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer) with redrawn PCBs
 
+![](PCB/out/peeko_with_level_shifter.top.jpg)
 ![](PCB/out/peeko_with_level_shifter.jpg)
+![](PCB/out/peeko_with_level_shifter.b.jpg)
 
 # peeko  
 First solder the Pico pins and all other top-side parts, but not the Pico itself.  
