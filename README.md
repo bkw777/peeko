@@ -1,6 +1,6 @@
 # PEEKO
-
-This is a fork of [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer) with redrawn PCBs
+Logic analyzer based on a Raspberry Pi Pico  
+This is a fork of [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer) with new PCBs
 
 ![](PCB/out/peeko_with_level_shifter.top.jpg)
 ![](PCB/out/peeko_with_level_shifter.jpg)
@@ -34,6 +34,7 @@ The Jason Yang version with integrated level-shifting, 4-layer pcb
 Enclosures for these versions are not drawn yet.  
 (The Enclosuders directory still contains the original files that only fit the original gusmanb pcbs.)
 
+Below here is the original readme.
 ----
 ----
 ----
