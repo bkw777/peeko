@@ -23,7 +23,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "000_LOCAL:SC-59"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -4542,7 +4542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "000_LOCAL:R_0805"
 			(at 0 0 0)
 			(effects
 				(font
