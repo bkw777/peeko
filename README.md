@@ -29,10 +29,19 @@ Lastly solder the Pico to the pins and flush-cut the tops.
 
 # peeko_jy
 
-The Jason Yang version with integrated level-shifting, 4-layer pcb  
-This board clips the input signal to about 3.5-4v by a diode to 3v3 with a 220 ohm resistor on the input.  
-This means it can possibly handle signals higher than 5.5v, but also means it pulls the circuit under test down to 4v or up to 0v pretty hard.  
-If you don't need high speed, you can replace the resistors with higher values to reduce the load on the circuit under test. The higher the resistance, the better the seperation, but also the slower the transitions.  
+The Jason Yang version with integrated level-shifting, 4-layer pcb.  
+It looks pretty, and I've redrawn it to be even prettier, but I think this must be pretty abusive to both the RP2040 and the circuit under test so I don't really recommend it.  
+
+Maybe swap out the BAV99 for BAV7004. Faster switching time, lower forward voltage.  
+And maybe swap the 220 ohms for 470, 1k, even 4.7k if you don't need the full 100msps (only good to about 10mhz signals). Higher resistance means less current but also slower rise time.  
+
+The good thing about this one is it can handle both higher than 5v and lower than 0v. But the higher the input voltage, the higher the current.  
+
+5v input probably means about 4.5ma load on the target, and you're still overdriving the pico input to about 4v.  
+12v input probably means about 36ma load on the target.  
+-12v input probably means about 50ma, and passing about -1v to the pico input.  
+
+I have not verified any of this for real.  
 
 ![](PCB/out/peeko_jy.jpg)
 ![](PCB/out/peeko_jy.top.jpg)
