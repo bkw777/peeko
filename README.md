@@ -30,8 +30,8 @@ Lastly solder the Pico to the pins and flush-cut the tops.
 # peeko_jy
 
 The Jason Yang version with integrated level-shifting, 4-layer pcb  
-This board clips the input signal to about 3v6 by a Schottky diode to 3v3 with a 220 ohm resistor on the input.  
-This means it can possibly handle signals higher than 5.5v, but also means it pulls the circuit under test down to 3.6v or up to 0v pretty hard.  
+This board clips the input signal to about 3.5-4v by a diode to 3v3 with a 220 ohm resistor on the input.  
+This means it can possibly handle signals higher than 5.5v, but also means it pulls the circuit under test down to 4v or up to 0v pretty hard.  
 If you don't need high speed, you can replace the resistors with higher values to reduce the load on the circuit under test. The higher the resistance, the better the seperation, but also the slower the transitions.  
 
 ![](PCB/out/peeko_jy.jpg)
