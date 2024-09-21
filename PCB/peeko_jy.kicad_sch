@@ -5,8 +5,8 @@
 	(uuid "9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12")
 	(paper "A4")
 	(title_block
-		(title "peeko")
-		(date "2024-09-16")
+		(title "peeko_jy")
+		(date "2024-09-21")
 		(rev "001")
 		(comment 1 "github.com/bkw777/peeko")
 	)
