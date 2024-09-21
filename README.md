@@ -29,7 +29,7 @@ Lastly solder the Pico to the pins and flush-cut the tops.
 
 # peeko_jy
 
-The Jason Yang version with integrated level-shifting, 4-layer pcb.  
+The Jason Yang circuit with integrated level-shifting, 4-layer pcb.  
 It looks pretty, and I've redrawn it to be even prettier, but I think this must be pretty abusive to both the RP2040 and the circuit under test so I don't really recommend it.  
 
 Maybe swap out the BAV99 for BAV7004. Faster switching time, lower forward voltage.  
