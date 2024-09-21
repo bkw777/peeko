@@ -3102,7 +3102,7 @@
 		(descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0805")
 		(property "Reference" "R8"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3115,7 +3115,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3307,7 +3307,7 @@
 		(descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0805")
 		(property "Reference" "R10"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3320,7 +3320,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5504,7 +5504,7 @@
 		(descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0805")
 		(property "Reference" "R2"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5517,7 +5517,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5709,7 +5709,7 @@
 		(descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0805")
 		(property "Reference" "R11"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5722,7 +5722,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5914,7 +5914,7 @@
 		(descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0805")
 		(property "Reference" "R3"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5927,7 +5927,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7100,7 +7100,7 @@
 		(descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0805")
 		(property "Reference" "R4"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7113,7 +7113,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7731,7 +7731,7 @@
 		(descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0805")
 		(property "Reference" "R5"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7744,7 +7744,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7936,7 +7936,7 @@
 		(descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0805")
 		(property "Reference" "R6"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7949,7 +7949,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8141,7 +8141,7 @@
 		(descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0805")
 		(property "Reference" "R9"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8154,7 +8154,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8740,7 +8740,7 @@
 		(descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
 		(tags "resistor 0805")
 		(property "Reference" "R7"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8753,7 +8753,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
