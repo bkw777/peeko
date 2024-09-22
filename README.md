@@ -27,8 +27,8 @@ BOM for the peeko & level shifter
 
 # building
 The order you solder the parts matters.  
-Solder everything on the pico side first, but not the pico itself, just the pins, diode, resistor.  
-Then flush cut the bottoms of the Pi pins, at least where the IDC connector will lay.  
+Solder everything on the Pico side first, but not the Pico itself, just the pins, diode, resistor.  
+Then flush cut the bottoms of the Pico pins, at least where the IDC connector will lay.  
 Then solder the bottom side parts. No need to flush cut any.  
 Lastly solder the Pico to the pins and flush-cut the tops.
 
