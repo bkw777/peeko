@@ -22,7 +22,7 @@ Alternate PCBs for [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanaly
 
 # BOM
 BOM for the peeko & level shifter  
-[DigiKey cart](https://www.digikey.com/short/tcw3t4mp)  
+[DigiKey cart](https://www.digikey.com/short/hmhjtdmn)  
 [peeko_and_level_shifter_digikey.bom.csv](peeko_and_level_shifter_digikey.bom.csv)
 
 # building
