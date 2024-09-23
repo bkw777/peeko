@@ -284,7 +284,7 @@
 		(roundrect_rratio 0.1923076923)
 		(uuid "1f87009a-874d-4975-9247-cfcd4a24dc0c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+	(model "${KIPRJMOD}/000_LOCAL.pretty/3d/D_MiniMELF.step"
 		(offset
 			(xyz 0 0 0)
 		)
