@@ -20,10 +20,14 @@ Alternate PCBs for [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanaly
 ![](PCB/out/peeko_input_level_shifter.bottom.jpg)
 ![](PCB/out/peeko_input_level_shifter.svg)
 
-# BOM
+# bom
 BOM for the peeko & level shifter  
 [DigiKey cart](https://www.digikey.com/short/hmhjtdmn)  
 [peeko_and_level_shifter_digikey.bom.csv](peeko_and_level_shifter_digikey.bom.csv)
+
+# housing
+![](HOUSING/out/peeko_housing.png)
+![](HOUSING/out/peeko_housing.b.png)
 
 # building
 The order you solder the parts matters.  
@@ -75,10 +79,6 @@ I have not verified any of this for real.
 ![](PCB/out/peeko_jy.inner2.jpg)
 ![](PCB/out/peeko_jy.bottom.jpg)
 ![](PCB/out/peeko_jy.svg)
-
-# enclosures
-Enclosures are not drawn yet.
-
 
 # usage
 For software, firmware, & directions, see [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer)
