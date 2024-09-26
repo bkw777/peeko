@@ -60,23 +60,25 @@ https://www.amazon.com/Goupchn-Grabber-Analyzer-Electronic-Testing/dp/B09TPBS7YF
 
 # peeko_jy
 
-An alternate version with the Jason Yang integrated level-shifting, 4-layer pcb.  
-It looks pretty, and I've redrawn it to be even prettier, but I think this must be pretty abusive to both the RP2040 and the circuit under test so I don't really recommend it.
+An alternate version with the Jason Yang integrated level-shifting.
 
-Maybe swap out the BAV99 for BAV7004. Faster switching time, lower forward voltage.  
-And maybe swap the 220 ohms for 470, 1k, even 4.7k if you don't need the full 100msps (only good to about 10mhz signals). Higher resistance means less current but also slower rise time.
+The good thing about this one is it can handle both higher than 5v and lower than 0v, so you could read rs-232 for example.
 
-The good thing about this one is it can handle both higher than 5v and lower than 0v. But the higher the input voltage, the higher the current.
-
+But the higher the input voltage, the higher the current load on the target.  
+I think this design must be pretty abusive to both the RP2040 and the circuit under test.  
 5v input probably means about 4.5ma load on the target, and you're still overdriving the pico input to about 4v.  
 12v input probably means about 36ma load on the target.  
--12v input probably means about 50ma, and passing about -1v to the pico input.
+-12v input probably means about 50ma, and passing about -1v to the pico input.  
+I have not tested to verify if it's actually as bad as these estimates.
 
-I have not verified any of this for real.
+Some options to maybe help:  
+Maybe swap out the BAV99 for BAV7004 for faster switching time and lower forward voltage.  
+Maybe swap the 220 ohms for 470, 1k, even 4.7k if you don't need the full 100msps.  
+But the full 100M samples/second is only good to about 10mhz signals already, so you don't want to lose much more.  
+Higher resistance means less current so you can read higher voltages, but also means slower rise time.
 
 ![](PCB/out/peeko_jy.jpg)
 ![](PCB/out/peeko_jy.top.jpg)
-![](PCB/out/peeko_jy.inner2.jpg)
 ![](PCB/out/peeko_jy.bottom.jpg)
 ![](PCB/out/peeko_jy.svg)
 

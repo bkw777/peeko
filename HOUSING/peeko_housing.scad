@@ -11,7 +11,7 @@ pcb_r = 0; // 50*mil; // peeko has radius but pico has sharp corners
 
 pin_header_insulator_height = 100*mil;
 pico_pcb_thickness = 1;
-pico_components_h = 1.6;
+pico_components_h = 1.6+2;
 
 // z=0 is the bottom surface of the peeko pcb
 above_ih = pcb_h + pin_header_insulator_height + pico_pcb_thickness + pico_components_h;
@@ -63,7 +63,7 @@ module body () {
 
         // idc
         _w = 10;
-        _d = cr+45.75+cr;
+        _d = cr+45.628+cr;
         _h = cr+9.2+1+cr;;
         translate([_w/2+3.11-cr,-100*mil,-_h/2+cr]) rounded_cube(w=_w,d=_d,h=_h,rh=cr,rv=cr,t=0);
 
