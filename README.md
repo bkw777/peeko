@@ -72,7 +72,7 @@ I think this design must be pretty abusive to both the RP2040 and the circuit un
 I have not tested to verify if it's actually as bad as these estimates.
 
 Some options to maybe help:  
-Maybe swap out the BAV99 for BAV7004 for faster switching time and lower forward voltage.  
+Maybe swap out the BAV99 for [BAS7004](https://www.digikey.com/en/products/detail/infineon-technologies/BAS7004E6327HTSA1/506301) for faster switching time and lower forward voltage.  
 Maybe swap the 220 ohms for 470, 1k, even 4.7k if you don't need the full 100msps.  
 But the full 100M samples/second is only good to about 10mhz signals already, so you don't want to lose much more.  
 Higher resistance means less current so you can read higher voltages, but also means slower rise time.
