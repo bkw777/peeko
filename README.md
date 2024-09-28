@@ -78,6 +78,7 @@ But the full 100M samples/second is only good to about 10mhz signals already, so
 Higher resistance means less current so you can read higher voltages, but also means slower rise time.
 
 ![](PCB/out/peeko_jy.jpg)
+![](HOUSING/out/peeko_jy_housing.png)
 ![](PCB/out/peeko_jy.top.jpg)
 ![](PCB/out/peeko_jy.bottom.jpg)
 ![](PCB/out/peeko_jy.svg)
