@@ -63,8 +63,7 @@ https://www.amazon.com/Goupchn-Grabber-Analyzer-Electronic-Testing/dp/B09TPBS7YF
 A version with the txu0104 level shifters built in.
 
 The VREF jumper lets you select either 3v3 or 5v inputs,  
-or you can supply VREF from the target to the VREF pin for 1v8 or 2v5 etc.  
-The datasheet for TXU0104 say the valid range is 1.1v to 5.5v.
+or you can supply 1.1v to 5.5v VREF from the target to the VREF pin for 1v8 or 2v5 etc.
 
 ![](PCB/out/peeko+.jpg)
 ![](HOUSING/out/peeko+_housing.png)
