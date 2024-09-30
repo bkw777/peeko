@@ -498,7 +498,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "LevelShifter.dsn",
-      "step": "",
+      "step": "../HOUSING/inc/peeko_input_level_shifter.step",
       "svg": "",
       "vrml": ""
     },
