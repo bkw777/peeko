@@ -160,3 +160,10 @@ module xy_array(xo=10,xc=4,yo=10,yc=2,center=false) {
   }
  }
 }
+
+module torus(rh=10,rv=1)
+{
+  rotate_extrude(convexity=10)
+    translate([rh,0,0])
+      circle(r=rv);
+}

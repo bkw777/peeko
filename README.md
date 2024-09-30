@@ -58,11 +58,25 @@ These are good but that would be $100
 These are good. Not as fine tipped as the E-Z Hooks, but small enough for 0.1" legs. Pretty good construction and operation.  
 https://www.amazon.com/Goupchn-Grabber-Analyzer-Electronic-Testing/dp/B09TPBS7YF/147-7256223-7410705  
 
+# peeko+
+
+A version with the txu0104 level shifters built in.
+
+The VREF jumper lets you select either 3v3 or 5v inputs,  
+or you can supply VREF from the target to the VREF pin for 1v8 or 2v5 etc.  
+The datasheet for TXU0104 say the valid range is 1.1v to 5.5v.
+
+![](PCB/out/peeko+.jpg)
+![](HOUSING/out/peeko+_housing.png)
+![](PCB/out/peeko+.top.jpg)
+![](PCB/out/peeko+.bottom.jpg)
+![](PCB/out/peeko+.svg)
+
 # peeko_jy
 
-An alternate version with the Jason Yang integrated level-shifting.
+A re-drawn version of the Jason Yang board with simple resistor-diode level shifting and clipping.
 
-The good thing about this one is it can handle both higher than 5v and lower than 0v, so you could read rs-232 for example.
+The good thing about this one is it clips as well as level-shifts, and it can handle both higher than 5v and lower than 0v, so you could read rs-232 for example.
 
 But the higher the input voltage, the higher the current load on the target.  
 I think this design must be pretty abusive to both the RP2040 and the circuit under test.  
