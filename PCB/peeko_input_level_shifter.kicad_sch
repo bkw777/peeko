@@ -4751,7 +4751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "000_LOCAL:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 76.2 87.63 0)
 			(effects
 				(font
@@ -5259,7 +5259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "000_LOCAL:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 76.2 49.53 0)
 			(effects
 				(font
@@ -5713,7 +5713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal jumper closed"
 			(at 215.9 82.55 0)
 			(effects
 				(font
@@ -6522,7 +6522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "000_LOCAL:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 139.7 87.63 0)
 			(effects
 				(font
@@ -6627,7 +6627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "000_LOCAL:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 139.7 49.53 0)
 			(effects
 				(font
@@ -6799,7 +6799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "000_LOCAL:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 76.2 125.73 0)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "000_LOCAL:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 139.7 125.73 0)
 			(effects
 				(font
