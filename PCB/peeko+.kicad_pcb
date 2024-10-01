@@ -87,7 +87,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 146.0145 95.4995)
+		(grid_origin 146.0145 104.3895)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -5659,6 +5659,90 @@
 		(model "${KIPRJMOD}/000_LOCAL.pretty/3d/C_0805.step"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "000_LOCAL:peeko+_housing"
+		(layer "F.Cu")
+		(uuid "6a06d234-45d2-4856-a24a-6f317247bcca")
+		(at 146.0145 104.3895)
+		(property "Reference" "N1"
+			(at 0 1.016 0)
+			(unlocked yes)
+			(layer "Dwgs.User")
+			(uuid "7bf4d6fa-78fd-44be-b621-36dd8c0e4035")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Housing"
+			(at 0 2.413 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f4901edf-c96d-42cb-8753-ce404798ca47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:peeko+_housing"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ed316c8-92c7-4206-88a4-10d32116ba0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "075226e4-bfd3-4838-aac2-092bd75e71cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Housing"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f3a63b5-9d01-4319-9b7f-ca4f72d06c10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Enclosure* Housing*")
+		(path "/8117d59e-dd84-42da-96bd-ca93c719f486")
+		(sheetname "Root")
+		(sheetfile "peeko+.kicad_sch")
+		(attr exclude_from_pos_files allow_missing_courtyard)
+		(model "${KIPRJMOD}/000_LOCAL.pretty/3d/peeko+_housing.step"
+			(offset
+				(xyz 0 0 -1.6)
 			)
 			(scale
 				(xyz 1 1 1)
