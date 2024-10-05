@@ -1,100 +1,34 @@
 # PEEKO
 
-Alternate PCBs for [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer)
+Alternate PCB for [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer)
 
-![](PCB/out/peeko_with_level_shifter.top.jpg)
-![](PCB/out/peeko_with_level_shifter.jpg)
-![](PCB/out/peeko_with_level_shifter.b.jpg)
+![](PCB/out/PEEKO.jpg)
+![](HOUSING/out/PEEKO_housing.png)
+![](PCB/out/PEEKO.top.jpg)
+![](PCB/out/PEEKO.bottom.jpg)
+![](PCB/out/PEEKO.svg)
 
-# peeko  
-![](PCB/out/peeko.jpg)
-![](PCB/out/peeko.2.jpg)
-![](PCB/out/peeko.3.jpg)
-![](PCB/out/peeko.top.jpg)
-![](PCB/out/peeko.bottom.jpg)
-![](PCB/out/peeko.svg)
+# BOM
 
-# input level shifter
-![](PCB/out/peeko_input_level_shifter.jpg)
-![](PCB/out/peeko_input_level_shifter.top.jpg)
-![](PCB/out/peeko_input_level_shifter.bottom.jpg)
-![](PCB/out/peeko_input_level_shifter.svg)
+[PEEKO DigiKey cart](https://www.digikey.com/short/8hj0trj0)  ([PEEKO.DigiKey.bom.csv](peeko.digikey.bom.csv))
 
-# bom
-BOM for the peeko & level shifter  
-[DigiKey cart](https://www.digikey.com/short/hmhjtdmn)  
-[peeko_and_level_shifter_digikey.bom.csv](peeko_and_level_shifter_digikey.bom.csv)
+# PROBES
 
-# housing
-![](HOUSING/out/peeko_housing.png)
-![](HOUSING/out/peeko_housing.b.png)
+The BOM includes parts to make 1 12" or 2 6" cables with a 30-pin connector on one end and individual female fly wires on the other end.
 
-# building
-The order you solder the parts matters.  
-Solder everything on the Pico side first, but not the Pico itself, just the pins, diode, resistor.  
-Then flush cut the bottoms of the Pico pins, at least where the IDC connector will lay.  
-Then solder the bottom side parts. No need to flush cut any.  
-Lastly solder the Pico to the pins and flush-cut the tops.
-
-For the fly wires, peel 10 wires off the female jumper cable to leave 30 wires together.  
-Cut the ribbon in half right in the middle, try to cut at exactly 90 degrees.  
+Peel 10 wires off of the ribbon cable to leave 30 wires together.  
+Cut the 30-pin ribbon in half in the middle.  
 Crimp the 30-pin female IDC connectors on the cut ends to make 2 6-inch cables.  
-Or cut closer to one side to make a single longer cable.
 
-Or remove both the cable and the IDC connectors from the cart and here is another option for a pre-made fly wire cable:  
+Or remove both the cable and the IDC connectors from the cart and here is a pre-made cable:  
 https://www.digikey.com/en/products/detail/digilent-inc/310-064/5848557
 
-# mini-grabbers
-For mini-grabbers, they are expensive on digikey so they are not in the bom.  
+Mini-grabbers: [terrible](https://www.amazon.com/dp/B07BCZSNGS), [good](https://amazon.com/dp/B09TPBS7YF/147-7256223-7410705), [expensive](https://www.amazon.com/dp/B00R3R7IVC)
 
-If you enjoy being miserable:  
-https://www.amazon.com/DIYhz-Colors-Grabbers-Electronic-Experiment/dp/B07BCZSNGS  
-They are really terrible because the metal is weak and the hooks fall off.
+# Other Versions
 
-If you are rich, then why are you here instead of just buying a proper DSLogic?:  
-https://www.amazon.com/Micro-Hook-Double-Grabber-Test-Connector/dp/B00R3R7IVC  
-These are good but that would be $100
+[brute-clamp](brute-clamp.md)
 
-These are good. Not as fine tipped as the E-Z Hooks, but small enough for 0.1" legs. Pretty good construction and operation.  
-https://www.amazon.com/Goupchn-Grabber-Analyzer-Electronic-Testing/dp/B09TPBS7YF/147-7256223-7410705  
+# USAGE
 
-# peeko+
-
-A version with the txu0104 level shifters built in.
-
-The VREF jumper lets you select either 3v3 or 5v inputs,  
-or you can supply 1.1v to 5.5v VREF from the target to the VREF pin for 1v8 or 2v5 etc.
-
-![](PCB/out/peeko+.jpg)
-![](HOUSING/out/peeko+_housing.png)
-![](PCB/out/peeko+.top.jpg)
-![](PCB/out/peeko+.bottom.jpg)
-![](PCB/out/peeko+.svg)
-
-# peeko_jy
-
-A re-drawn version of the Jason Yang board with simple resistor-diode level shifting and clipping.
-
-The good thing about this one is it clips as well as level-shifts, and it can handle both higher than 5v and lower than 0v, so you could read rs-232 for example.
-
-But the higher the input voltage, the higher the current load on the target.  
-I think this design must be pretty abusive to both the RP2040 and the circuit under test.  
-5v input probably means about 4.5ma load on the target, and you're still overdriving the pico input to about 4v.  
-12v input probably means about 36ma load on the target.  
--12v input probably means about 50ma, and passing about -1v to the pico input.  
-I have not tested to verify if it's actually as bad as these estimates.
-
-Some options to maybe help:  
-Maybe swap out the BAV99 for [BAS7004](https://www.digikey.com/en/products/detail/infineon-technologies/BAS7004E6327HTSA1/506301) for faster switching time and lower forward voltage.  
-Maybe swap the 220 ohms for 470, 1k, even 4.7k if you don't need the full 100msps.  
-But the full 100M samples/second is only good to about 10mhz signals already, so you don't want to lose much more.  
-Higher resistance means less current so you can read higher voltages, but also means slower rise time.
-
-![](PCB/out/peeko_jy.jpg)
-![](HOUSING/out/peeko_jy_housing.png)
-![](PCB/out/peeko_jy.top.jpg)
-![](PCB/out/peeko_jy.bottom.jpg)
-![](PCB/out/peeko_jy.svg)
-
-# usage
 For software, firmware, & directions, see [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer)
