@@ -13,7 +13,9 @@ Re-drawn version of the Jason Yang PCB from [gusmanb/logicanalyzer](https://gith
 
 # Description
 
-This is a re-drawn version of the Jason Yang board, which uses attains level-shifting via diode-clamping.
+This is a re-drawn version of the Jason Yang board, which does level-shifting via diode-clamping.
+
+This is pretty brute-force and pretty abusive to both the circuit under test and the pico, but can also handle voltages much lower than 0v and much higher than 5v.
 
 Changes:  
 * simpler cleaner traces  
