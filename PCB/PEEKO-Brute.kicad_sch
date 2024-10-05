@@ -11,214 +11,6 @@
 		(comment 1 "github.com/bkw777/peeko")
 	)
 	(lib_symbols
-		(symbol "000_LOCAL:BAV99"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAV99"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "000_LOCAL:SC-59"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "datasheets/BAV99.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAV99_0_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAV99_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "000_LOCAL:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -3361,16 +3153,22 @@
 		)
 	)
 	(junction
-		(at 133.35 158.75)
+		(at 223.52 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43874453-79e7-4e39-a38e-e9131cc60da4")
+		(uuid "2f325d79-620e-418e-bfda-1b06bcbb4f82")
 	)
 	(junction
 		(at 95.25 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4954ad46-716e-4ac2-9bc2-42a0c0e99d71")
+		(uuid "3baec31d-e086-4518-aff5-01db39957d0d")
+	)
+	(junction
+		(at 133.35 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43874453-79e7-4e39-a38e-e9131cc60da4")
 	)
 	(junction
 		(at 133.35 170.18)
@@ -3383,12 +3181,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a6c90a5-1fc4-4e35-9bb5-198a8d329b91")
-	)
-	(junction
-		(at 223.52 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67c29054-5ab3-4c41-a13c-c3ef0da2c923")
 	)
 	(junction
 		(at 266.7 114.3)
@@ -3419,12 +3211,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f16b26b3-8dc2-4845-98b9-214ff0d5317f")
-	)
-	(junction
-		(at 33.02 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fedde943-ae17-47da-8075-083ca11bd157")
 	)
 	(no_connect
 		(at 87.63 158.75)
@@ -3474,23 +3260,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 110.49) (xy 33.02 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14856bc9-3dfd-4851-acc2-1df90471e712")
-	)
-	(wire
-		(pts
 			(xy 33.02 113.03) (xy 33.02 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e686170-9423-4f7f-bbe9-408624a69e16")
+		(uuid "234aea24-432f-4568-a204-368ea2744263")
 	)
 	(wire
 		(pts
@@ -4843,74 +4619,6 @@
 		(uuid "fa53e9e1-dc43-4999-873d-6ce9646b7eb3")
 	)
 	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 86.36 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0093b0d4-aeda-434a-95b3-254519901ab7")
-		(property "Reference" "R2"
-			(at 96.52 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 101.092 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 86.36 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db1684dc-0cb4-46b5-8752-a85c9a7df6f1")
-		)
-		(pin "2"
-			(uuid "cef0f776-20f6-4435-a604-875618b3b829")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 172.72 88.9 270)
 		(unit 1)
@@ -5045,15 +4753,15 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
-		(at 124.46 81.28 270)
+		(at 124.46 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0a98f9f4-66e7-4b2f-9e1d-5e8c6a511f3e")
-		(property "Reference" "R11"
-			(at 135.128 81.28 90)
+		(uuid "0791e22d-3c6d-4d32-ba13-499a8a0164e9")
+		(property "Reference" "R9"
+			(at 134.62 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +4769,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 139.7 81.28 90)
+			(at 139.192 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +4777,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:R_0805"
-			(at 124.46 81.28 0)
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,8 +4785,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 124.46 81.28 0)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,8 +4794,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 81.28 0)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 124.46 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,15 +4813,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "de227032-51b0-458a-b9b7-b589786dd015")
+			(uuid "35f590d4-bdbb-42bb-8083-1cf6fe37f1d2")
 		)
 		(pin "2"
-			(uuid "1c722b42-3274-4cb2-8318-5f2ad236f9e2")
+			(uuid "cbd5a894-d450-44da-b7ad-458b9e106bf9")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5113,15 +4830,15 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
-		(at 162.56 55.88 270)
+		(at 86.36 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0cff0ed3-6056-48e9-8ace-84086c1d5e03")
-		(property "Reference" "R17"
-			(at 173.228 55.88 90)
+		(uuid "0ac4eb14-fb6a-4c52-b80b-9c0dd85151ac")
+		(property "Reference" "R4"
+			(at 96.52 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +4846,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 177.8 55.88 90)
+			(at 101.092 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +4854,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:R_0805"
-			(at 162.56 55.88 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,8 +4862,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 55.88 0)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,8 +4871,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 55.88 0)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 86.36 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,15 +4890,92 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a517f18-b0e5-454b-a52e-7256f0dc6dfa")
+			(uuid "83d05056-9d7e-482c-8ffe-46a323ff44ee")
 		)
 		(pin "2"
-			(uuid "b6fb6a4a-52a2-4a05-9291-e043d52c8df3")
+			(uuid "d7e6fe7c-68b8-43c6-9d50-e405ea430976")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R17")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 162.56 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d5edea9-6c2f-4ff9-a72d-7809f76f975f")
+		(property "Reference" "R21"
+			(at 172.72 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 177.292 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 162.56 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20b299cd-1946-411e-bd80-db7cffd4eccf")
+		)
+		(pin "2"
+			(uuid "4fdd04de-c0f8-4f94-9953-6aed60952544")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5303,6 +5106,86 @@
 			(project ""
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 127 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13786438-78fb-4456-a696-6c37cefd016b")
+		(property "Reference" "D13"
+			(at 124.46 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 131.318 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8dfa517-8b74-4b94-a05b-2df6968c86e0")
+		)
+		(pin "1"
+			(uuid "62d20c40-c200-4dda-b727-c43fe9212f45")
+		)
+		(pin "3"
+			(uuid "18b57237-112f-4a1a-a880-7c4def18636e")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5511,15 +5394,15 @@
 	(symbol
 		(lib_name "BAV99_1")
 		(lib_id "000_LOCAL:BAV99")
-		(at 127 101.6 0)
+		(at 88.9 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "18bd2174-c790-43cd-bc84-2d0f816e7e55")
-		(property "Reference" "D13"
-			(at 124.46 98.552 0)
+		(uuid "1e563270-672b-4225-9a6b-569598277e59")
+		(property "Reference" "D2"
+			(at 86.36 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5410,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 131.318 98.552 0)
+			(at 93.218 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5418,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 114.3 0)
+			(at 88.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5427,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 101.6 0)
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,8 +5435,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 127 101.6 0)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,70 +5444,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3570ad3e-ec59-4bfb-9c1d-3030d1aa9f7c")
-		)
-		(pin "1"
-			(uuid "7f80ae2a-1595-4854-bf97-13803327bb9c")
-		)
-		(pin "3"
-			(uuid "313f3021-f790-486a-a079-cd5039597c7d")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ca4f6e1-b906-4f75-a46e-dae73ad9ab33")
-		(property "Reference" "D20"
-			(at 162.56 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 169.418 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 165.1 88.9 0)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,89 +5454,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "8ce0da44-bc39-4519-8c82-2d49ed946fe9")
+			(uuid "a80f0124-5821-4ab6-95b5-e0a9a99e2d43")
 		)
 		(pin "1"
-			(uuid "26926cc6-f665-4532-8c72-b1195ca10198")
+			(uuid "ed38eafe-1e3e-4921-bd91-4a692fc8873c")
 		)
 		(pin "3"
-			(uuid "41247fd5-1c65-4e1a-a836-e3a342591dd4")
+			(uuid "202906d2-b4f1-479f-89ff-3317eaf3c0da")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_LOCAL:BAV99")
-		(at 95.25 158.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fdc5c42-b4ea-4d84-bccf-ae3d24154a0c")
-		(property "Reference" "D25"
-			(at 95.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 95.25 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 95.25 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 95.25 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 95.25 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fd13bea-c9fc-4b38-88ec-dfeb91df981e")
-		)
-		(pin "2"
-			(uuid "84ce16b0-d1b3-4e2e-8d67-11456a9a26e4")
-		)
-		(pin "3"
-			(uuid "07a980c6-6c5b-4632-ad4e-479fb754a6e6")
-		)
-		(instances
-			(project ""
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D25")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5782,6 +5532,83 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 86.36 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2874ddc5-02e0-45d3-a199-225be302d615")
+		(property "Reference" "R5"
+			(at 96.52 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 101.092 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 86.36 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06ed5f45-e4e2-444b-a3dc-39dd44ee437a")
+		)
+		(pin "2"
+			(uuid "45754702-1646-4aac-9c15-3d54ea4eec64")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5855,41 +5682,33 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_RaspberryPi_and_Boards:Pico")
-		(at 241.3 95.25 0)
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 88.9 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2cda6f34-1a7b-44ff-a44a-77d6760b11a1")
-		(property "Reference" "J1"
-			(at 241.3 65.532 0)
+		(uuid "30569791-5947-4b88-9c30-8e64585447bc")
+		(property "Reference" "D6"
+			(at 86.36 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Rasberry PI Pico"
-			(at 241.3 67.564 0)
+		(property "Value" "BAV99"
+			(at 93.218 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:dip-40-700-pi-pico"
-			(at 241.3 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 95.25 0)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,8 +5716,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 95.25 0)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,139 +5725,37 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f7675c5b-ea00-47be-ba03-8898541746f2")
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "10"
-			(uuid "82ba7abf-9fa7-44e7-adf9-b2296a186433")
-		)
-		(pin "11"
-			(uuid "a8899e80-dd2a-4e9c-ab5b-7e06d76b2351")
-		)
-		(pin "12"
-			(uuid "9d730bd3-3717-4bca-9519-b06f4f1d57df")
-		)
-		(pin "13"
-			(uuid "5949de1b-3ee3-4e2c-80cd-d0530cd09b87")
-		)
-		(pin "14"
-			(uuid "204d0b00-0442-4301-b5bc-8b6c6ca67b28")
-		)
-		(pin "15"
-			(uuid "3b7f17c8-77e6-4d63-9aec-2142922d3d03")
-		)
-		(pin "16"
-			(uuid "fc0f928a-33ec-4b33-84d5-13ac41ea0e55")
-		)
-		(pin "17"
-			(uuid "dc66e6ae-1476-4e17-a51f-3c467867db4f")
-		)
-		(pin "18"
-			(uuid "9fd86d14-ecca-4487-bffc-e06d70af5ff8")
-		)
-		(pin "19"
-			(uuid "9e746b13-0a85-42cd-83bf-a6a944fb9758")
+		(property "MPN" "Nexperia BAV99,215"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "862f650a-bf93-4b86-a4a6-c9ae9d322f23")
+			(uuid "3147c384-e4b1-42e4-a0d0-6ee5567f6547")
 		)
-		(pin "20"
-			(uuid "de07f0d3-ffe0-4d03-b4b2-e288bbcfa37f")
-		)
-		(pin "21"
-			(uuid "cd747735-fa84-4e56-b633-c2c45e6113ed")
-		)
-		(pin "22"
-			(uuid "7d4bd443-7d93-4709-9e0f-917f9913b8c0")
-		)
-		(pin "23"
-			(uuid "aa36e01e-f54b-4b81-9c4b-428d9aed4b36")
-		)
-		(pin "24"
-			(uuid "65a89101-b85a-4ac9-a07b-5c9b8f267cbc")
-		)
-		(pin "25"
-			(uuid "f9896487-cc4b-4f1d-88c3-27e14d76c052")
-		)
-		(pin "26"
-			(uuid "83103d7c-3d0c-4fa3-bae9-a33c875bb4c6")
-		)
-		(pin "27"
-			(uuid "0e18a03f-915d-453e-ba0b-6caab2924238")
-		)
-		(pin "28"
-			(uuid "81002d58-e646-47f4-8f33-0a7bf8815f27")
-		)
-		(pin "29"
-			(uuid "1b90980d-7c3e-4314-b2e9-459bea5ccbb4")
+		(pin "1"
+			(uuid "311aa323-0cd9-4763-963c-534c49c88040")
 		)
 		(pin "3"
-			(uuid "727da70d-2c91-460a-bc87-d1b9094381de")
-		)
-		(pin "30"
-			(uuid "dac5b373-b289-4577-b090-d141393b4408")
-		)
-		(pin "31"
-			(uuid "60a948dd-6e69-4dd2-8a1f-abab588dcc6f")
-		)
-		(pin "32"
-			(uuid "2e005d46-3600-44f9-8ad5-33297237be01")
-		)
-		(pin "33"
-			(uuid "01fb6db6-c977-468b-9233-4df6a99ec99e")
-		)
-		(pin "34"
-			(uuid "ae364bfb-8c7e-4e81-a7a8-43df80b715de")
-		)
-		(pin "35"
-			(uuid "3b812c19-2cdc-483a-8c75-625259880c98")
-		)
-		(pin "36"
-			(uuid "bbd95788-8c28-41a7-a344-0d6c6ae08973")
-		)
-		(pin "37"
-			(uuid "84bd6067-86ab-4063-a6e1-59cf6b04a9fa")
-		)
-		(pin "38"
-			(uuid "2f02cd3f-d374-484d-9f2b-64d5a83e32ca")
-		)
-		(pin "39"
-			(uuid "83f4cf1b-4cb7-4aaa-9dc6-3e3e828ac084")
-		)
-		(pin "4"
-			(uuid "b1266b0b-bcd8-4fe3-9b82-2cd7f7504363")
-		)
-		(pin "40"
-			(uuid "1cd23fdb-62b0-4878-8e07-4596e941ff41")
-		)
-		(pin "41"
-			(uuid "70e50e32-3d6e-4ec5-aa72-ab9a075e9abe")
-		)
-		(pin "42"
-			(uuid "2b9d7df4-f4bb-4ded-8737-ab01f22d2348")
-		)
-		(pin "43"
-			(uuid "b541c487-b3a6-4eab-a218-c903d99346be")
-		)
-		(pin "5"
-			(uuid "67d225c8-c89f-4c11-8055-acfca238f126")
-		)
-		(pin "6"
-			(uuid "4789c6d9-1cd7-485f-b65c-94cc2e5e66ba")
-		)
-		(pin "7"
-			(uuid "5dc0b55c-2a2e-438b-a745-92473ec1f450")
-		)
-		(pin "8"
-			(uuid "c96ff00b-4b49-48cb-85fb-c92a82b12cc3")
-		)
-		(pin "9"
-			(uuid "64a5200f-cc41-435d-b160-8e35090ced5b")
+			(uuid "3fcbb57c-0178-47c2-8f0c-5f84a4f167b9")
 		)
 		(instances
-			(project ""
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "J1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6245,77 +5962,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32ec6128-76ee-4fc5-ad36-21e8fabb2b88")
-		(property "Reference" "D2"
-			(at 86.36 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 93.218 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 88.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "00cdab8b-e829-43f5-801c-9a9d82f08ec1")
-		)
-		(pin "1"
-			(uuid "11a09c74-e07c-411d-beae-3b05f7e967b1")
-		)
-		(pin "3"
-			(uuid "8daab31f-861d-42f4-8b52-bdbcfeb923c3")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 45.72 110.49 270)
 		(unit 1)
@@ -6515,42 +6161,33 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 88.9 0)
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 124.46 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3b810a92-4bb9-4b3c-9eb1-43142d4624ec")
-		(property "Reference" "D12"
-			(at 124.46 85.852 0)
+		(uuid "3a222e51-79bd-47b9-bec6-4c0b3dadc039")
+		(property "Reference" "R13"
+			(at 134.62 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 131.318 85.852 0)
+		(property "Value" "220"
+			(at 139.192 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 88.9 0)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,8 +6195,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 127 88.9 0)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,19 +6204,111 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "39fcb0ea-8580-40d2-b71a-189d106fcf27")
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 124.46 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "e0fae2d0-6c2c-4005-98d4-ae1b8e40e7d6")
+			(uuid "afb3f814-05fa-49b9-8adb-45f80b2ec000")
 		)
-		(pin "3"
-			(uuid "a29203eb-c384-4780-8dec-dea09157a051")
+		(pin "2"
+			(uuid "7bf2bfad-e4e5-4b4b-b29f-f499f5f7d04f")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D12")
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 124.46 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b6d3d38-2136-4d57-b8c1-4d3b7ef1dc51")
+		(property "Reference" "R14"
+			(at 134.62 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 139.192 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 124.46 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65166071-4c55-4f93-894c-cde57262d623")
+		)
+		(pin "2"
+			(uuid "7f22a368-62a1-46b6-8de7-2684519f8901")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6714,6 +6443,163 @@
 			(project "peeko_b"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 127 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fe6bcd2-f435-4a0d-b5bf-1a164ba63906")
+		(property "Reference" "D10"
+			(at 124.46 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 131.318 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b2b436d-e6a1-401e-9263-92756dd9063b")
+		)
+		(pin "1"
+			(uuid "122243c1-ff85-4c32-8842-43b2d66a5bc1")
+		)
+		(pin "3"
+			(uuid "134a873e-4fdf-4722-8841-4fe893d3eec4")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 162.56 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "405755cb-3c22-4c56-a9db-98d63a06d18d")
+		(property "Reference" "R17"
+			(at 172.72 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 177.292 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 162.56 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8017c5d8-bfb6-4c9a-b0d9-750b77a4266b")
+		)
+		(pin "2"
+			(uuid "2da09b15-2521-4f2c-8299-d5b44fb9e500")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6855,15 +6741,15 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
-		(at 162.56 106.68 270)
+		(at 124.46 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "46c4cfad-d835-4798-b22d-719bee18b264")
-		(property "Reference" "R21"
-			(at 173.228 106.68 90)
+		(uuid "4736ff38-f907-4159-bd9b-9cc0ac84606d")
+		(property "Reference" "R16"
+			(at 134.62 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6871,7 +6757,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 177.8 106.68 90)
+			(at 139.192 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6765,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:R_0805"
-			(at 162.56 106.68 0)
+			(at 124.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,8 +6773,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 106.68 0)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 124.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,8 +6782,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 106.68 0)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 124.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,67 +6791,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "940e909b-6acf-4b7d-a325-3073e0b77d48")
-		)
-		(pin "2"
-			(uuid "0fc29b70-2528-4d09-99de-984f3e4dc1ed")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 162.56 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48720ee1-79f4-4878-8658-cb4aa5e7ff8a")
-		(property "Reference" "R20"
-			(at 173.228 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 177.8 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 162.56 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 93.98 0)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 124.46 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,86 +6801,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc6692c1-88d4-4d90-a1c3-dcadb88562e9")
+			(uuid "dae354a5-400e-48fb-93a1-523a397ff474")
 		)
 		(pin "2"
-			(uuid "fff18d20-a52b-49c3-92ba-71af65d9455a")
+			(uuid "f628d5c6-4ffd-47ee-b638-2a63fcb54f20")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "490a12e0-b05c-4955-8dd9-8d5709edf559")
-		(property "Reference" "D18"
-			(at 162.56 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 169.418 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 165.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40ee6e70-e2cf-4404-b783-f7badfd05584")
-		)
-		(pin "1"
-			(uuid "7de2786b-e2c0-4c91-9023-dbc7cb2c5abc")
-		)
-		(pin "3"
-			(uuid "75205b8f-840c-43d0-a17c-8c70ec7921cc")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D18")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7129,15 +6885,15 @@
 	(symbol
 		(lib_name "BAV99_1")
 		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 127 0)
+		(at 127 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "50efd58b-f733-4d8c-a027-a2084f61622e")
-		(property "Reference" "D23"
-			(at 162.56 123.952 0)
+		(uuid "4dda950e-09cd-4b90-aa85-67235517dcaa")
+		(property "Reference" "D16"
+			(at 124.46 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,7 +6901,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 169.418 123.952 0)
+			(at 131.318 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +6909,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 139.7 0)
+			(at 127 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +6918,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 127 0)
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,8 +6926,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 165.1 127 0)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,18 +6945,255 @@
 			)
 		)
 		(pin "2"
-			(uuid "62b408f9-c34a-44ca-b038-bdf311ecda16")
+			(uuid "5b2ebde5-0c4b-4526-bc8e-de5b952e9090")
 		)
 		(pin "1"
-			(uuid "060bec5b-cafc-4422-a3c3-e5566a0cc056")
+			(uuid "f0e26cf4-fc59-4601-b2eb-26e3ae6c8e11")
 		)
 		(pin "3"
-			(uuid "5d986856-78e8-44c0-9b0b-3135ab17a703")
+			(uuid "5504fb13-1df1-4e8e-b096-f3b81f050009")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D23")
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 165.1 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ef2fada-36e9-40fe-bcad-bec133e6c15b")
+		(property "Reference" "D19"
+			(at 162.56 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 169.418 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7e64767-cb8f-4d43-b47b-d667f8b42cf7")
+		)
+		(pin "1"
+			(uuid "8e6f5d16-1ed5-4115-aa95-1194e4e9cfda")
+		)
+		(pin "3"
+			(uuid "cbe34e15-c682-4963-945f-1d42be4231f8")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 127 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f11efe3-b06a-48a3-b741-e5d3997fbc50")
+		(property "Reference" "D11"
+			(at 124.46 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 131.318 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21d68382-3b48-4753-b822-1779ffc50784")
+		)
+		(pin "1"
+			(uuid "432d107d-5524-4a6e-89d3-3d8bb497395e")
+		)
+		(pin "3"
+			(uuid "0256506e-2f3c-4559-bbea-da5d5bfc659b")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 124.46 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f5379a1-965f-4a23-b885-c0cfe6e8f44f")
+		(property "Reference" "R11"
+			(at 134.62 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 139.192 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 124.46 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88a7e994-22c2-4f0e-9418-f7bc93b38106")
+		)
+		(pin "2"
+			(uuid "10725b65-321e-4554-8649-5f15d480dc5a")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7265,74 +7267,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 162.56 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "535b7fe4-3a71-4ff9-8881-99705541cf44")
-		(property "Reference" "R22"
-			(at 173.228 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 177.8 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 162.56 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6b31bb4-6b08-4d2f-aed1-e3de21e69a66")
-		)
-		(pin "2"
-			(uuid "2c204ad0-3f2f-46b5-8c17-3260fbcc827a")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 172.72 127 270)
 		(unit 1)
@@ -7399,17 +7333,94 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 114.3 0)
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 162.56 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "586330eb-3f32-4014-96c1-f6c7e7996a2c")
-		(property "Reference" "D22"
-			(at 162.56 111.252 0)
+		(uuid "55823a4b-5d18-45d1-a6b2-2e78783224fb")
+		(property "Reference" "R20"
+			(at 172.72 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 177.292 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 162.56 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8663a8bb-e62a-4625-8e5d-60968e5058e0")
+		)
+		(pin "2"
+			(uuid "453c99f9-931c-4fd6-a41a-9f07e04c359b")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 165.1 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5795aeae-f781-496f-8485-de867794db0a")
+		(property "Reference" "D17"
+			(at 162.56 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +7428,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 169.418 111.252 0)
+			(at 169.418 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7436,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 127 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7445,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 114.3 0)
+			(at 165.1 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,8 +7453,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 165.1 114.3 0)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 165.1 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,18 +7472,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "222f7389-a693-485f-a821-6f5ee43af732")
+			(uuid "8772604a-b703-49ff-b1bd-8e592677d992")
 		)
 		(pin "1"
-			(uuid "7706ff70-deff-4410-87fc-f4f11782a9a6")
+			(uuid "9bdc2e89-e9c1-4e41-ab5b-5a16fc25dd56")
 		)
 		(pin "3"
-			(uuid "07bf54fa-98f2-4edd-aca3-23da723fa60c")
+			(uuid "0ccd7b9d-12a0-4ec4-a9e8-440b4d458dd6")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D22")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -7536,6 +7556,86 @@
 		)
 	)
 	(symbol
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 88.9 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ab37206-10ce-441b-8573-68ae80c225b5")
+		(property "Reference" "D4"
+			(at 86.36 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 93.218 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0386711-9d8e-4937-8720-e69b42b068be")
+		)
+		(pin "1"
+			(uuid "132a896d-c74e-4a33-994b-2c46e2315ed1")
+		)
+		(pin "3"
+			(uuid "09ab1f15-c79b-4a87-8968-513e07d25545")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 134.62 63.5 270)
 		(unit 1)
@@ -7596,6 +7696,86 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c844f64-74fb-4685-93af-e57b2cc34451")
+		(property "Reference" "D3"
+			(at 86.36 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 93.218 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50a42f5c-c2c0-4a5e-b701-c8503c64114b")
+		)
+		(pin "1"
+			(uuid "27368104-3ed3-4b61-b39c-521936fbaca6")
+		)
+		(pin "3"
+			(uuid "55b08752-9cc0-4949-8508-bc5debe0e583")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7668,74 +7848,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000_LOCAL:Conn_01x02_Pin")
-		(at 121.92 172.72 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61d4aad2-2e59-41b0-a12f-226cfcc456a9")
-		(property "Reference" "J3"
-			(at 121.92 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 121.92 167.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 121.92 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 121.92 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "46512018-8b56-4789-8600-2c9d68dffd51")
-		)
-		(pin "1"
-			(uuid "5fe6db17-2583-4b31-a3ce-9d3123929962")
-		)
-		(instances
-			(project ""
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 96.52 101.6 270)
 		(unit 1)
@@ -7796,6 +7908,394 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 162.56 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62ff3c41-a4d5-4f15-b8c2-e2d3687e3895")
+		(property "Reference" "R24"
+			(at 172.72 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 177.292 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 162.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 162.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 162.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 162.56 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c49cfe2-07ec-4a41-b8c5-ebdb1c336bab")
+		)
+		(pin "2"
+			(uuid "ed9afe4d-31b9-413e-a660-16c92275734b")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 86.36 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63fb9eab-bd34-4c50-8856-b26802d6e51b")
+		(property "Reference" "R2"
+			(at 96.52 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 101.092 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 86.36 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22aa0752-a371-4aff-851f-83d9db972961")
+		)
+		(pin "2"
+			(uuid "0926b366-d8a9-4b74-98e8-750b4ea4337e")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 127 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64f9481d-c654-48c0-82d8-e516b74efc67")
+		(property "Reference" "D9"
+			(at 124.46 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 131.318 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d351ad18-e1eb-4b5d-b165-d7a0fb09b882")
+		)
+		(pin "1"
+			(uuid "d9245ee5-4c57-4dc2-bc32-634466219e58")
+		)
+		(pin "3"
+			(uuid "7dc07fcf-185e-46ed-a459-3c3e29a8b4c9")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 86.36 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6737f03e-d5ab-44d4-9e68-968f42c7d596")
+		(property "Reference" "R7"
+			(at 96.52 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 101.092 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 86.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 86.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 86.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 86.36 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f46a79a-1113-4b0c-9cac-0e93e9cad809")
+		)
+		(pin "2"
+			(uuid "acf78c53-5107-4f5e-b0c2-cc971aeadb7e")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 86.36 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "680d266a-2a79-487e-9c5e-ba1dd7de9c4f")
+		(property "Reference" "R6"
+			(at 96.52 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 101.092 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 86.36 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf3fab48-8f16-47fd-9078-4cde5d5f33c3")
+		)
+		(pin "2"
+			(uuid "a3b03252-532c-4bcb-be0f-c6f40c25a58b")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7869,6 +8369,83 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 162.56 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72a813cd-9ea0-4e2d-9a9d-000a87476cdc")
+		(property "Reference" "R23"
+			(at 172.72 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 177.292 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 162.56 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5160bc2d-a11f-44a7-9d33-4dc9d00b6572")
+		)
+		(pin "2"
+			(uuid "99023f0d-48ba-4d7b-b0cf-ee576d4b996b")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 96.52 127 270)
 		(unit 1)
@@ -7929,6 +8506,83 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 124.46 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7438d570-3d89-4aa5-bf30-8269b0e085f8")
+		(property "Reference" "R12"
+			(at 134.62 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 139.192 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 124.46 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95535773-d8d5-447f-aa30-069efe081bd6")
+		)
+		(pin "2"
+			(uuid "ac1bff6c-466f-4f87-a92c-117cf0fac4d5")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8003,15 +8657,15 @@
 	(symbol
 		(lib_name "BAV99_1")
 		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 76.2 0)
+		(at 165.1 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "74d0edc5-933f-4e6f-b683-6a56ca5b5124")
-		(property "Reference" "D19"
-			(at 162.56 73.152 0)
+		(uuid "75912ff5-7f00-4aeb-98d5-f193a7ac2d35")
+		(property "Reference" "D23"
+			(at 162.56 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,7 +8673,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 169.418 73.152 0)
+			(at 169.418 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8027,7 +8681,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 88.9 0)
+			(at 165.1 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8036,7 +8690,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 76.2 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,8 +8698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 165.1 76.2 0)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,70 +8707,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "bead73c9-f212-458b-ad7f-3a6144227dd8")
-		)
-		(pin "1"
-			(uuid "dbbd3333-b023-4e75-88ed-0b4d1cc177f1")
-		)
-		(pin "3"
-			(uuid "6ca40989-77f0-49db-9457-9b7dc2e1acf0")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78b47cb6-a64f-49f4-a2ee-2b131fed88cc")
-		(property "Reference" "D17"
-			(at 162.56 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 169.418 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 165.1 50.8 0)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,18 +8717,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "101b632e-4cef-47f9-b74e-9f099569f9ae")
+			(uuid "39fb9751-a4fa-4494-97a2-5d5805a3b6e1")
 		)
 		(pin "1"
-			(uuid "d93e4d18-888c-473c-83b7-603426a6ddf4")
+			(uuid "b2e260f0-1696-45f1-ad05-7ff61e0e309f")
 		)
 		(pin "3"
-			(uuid "8a98a3d3-09d7-400c-b0b6-7a318acb1aec")
+			(uuid "11109f56-cf0f-4da9-81b2-f413468bf13b")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D17")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -8244,7 +8836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
 			(at 86.36 55.88 0)
 			(effects
 				(font
@@ -8253,8 +8845,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
 			(at 86.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 86.36 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8477,77 +9078,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "827da323-0fd9-4ec8-b104-1f7c69c679b8")
-		(property "Reference" "D5"
-			(at 86.36 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 93.218 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fea611c4-076d-44dd-8cf5-fced73aa07c8")
-		)
-		(pin "1"
-			(uuid "f72409b8-d9a6-4716-bb0f-b3104eff6af3")
-		)
-		(pin "3"
-			(uuid "fba64d8e-adda-40b9-b96a-383420129f08")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 107.95 90)
 		(unit 1)
@@ -8609,77 +9139,6 @@
 			(project "LogicAnalyzer"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83cec8c2-a6d8-4f34-a273-00bc9aadf6d9")
-		(property "Reference" "D7"
-			(at 86.36 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 93.218 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "481f4bdd-d7e2-4e36-8810-b5a0f8273791")
-		)
-		(pin "1"
-			(uuid "a854ee30-9fb7-4330-b59e-2770b9347e63")
-		)
-		(pin "3"
-			(uuid "9e4126bd-05e5-447a-b734-d3c4d3e140c7")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8752,77 +9211,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8930971b-5571-423e-bd0a-0616ba19ade6")
-		(property "Reference" "D11"
-			(at 124.46 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 131.318 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 127 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e055169f-94a0-4d15-b8ae-328c8f5d78b9")
-		)
-		(pin "1"
-			(uuid "93dfe031-cb56-4488-ba6c-f9490004075c")
-		)
-		(pin "3"
-			(uuid "8571953a-f5f3-4e0a-9cb5-f2620127c98f")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 134.62 114.3 270)
 		(unit 1)
@@ -8889,84 +9277,17 @@
 		)
 	)
 	(symbol
-		(lib_id "000_LOCAL:Conn_01x02_Pin")
-		(at 144.78 172.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8bd95b01-f29a-473a-ab3b-c0e7e4b2c068")
-		(property "Reference" "J4"
-			(at 144.78 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 144.78 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 144.78 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 144.78 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31f53606-a615-4ecd-b6ad-abf1c510a489")
-		)
-		(pin "1"
-			(uuid "60d97b8d-05af-4483-b42e-b095054fc795")
-		)
-		(instances
-			(project ""
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "BAV99_1")
 		(lib_id "000_LOCAL:BAV99")
-		(at 127 63.5 0)
+		(at 88.9 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c3b2d57-c6e7-4568-9317-a06cfa8f059b")
-		(property "Reference" "D10"
-			(at 124.46 60.452 0)
+		(uuid "8c7d5d86-f64b-4b2b-9ba3-9221e2f72505")
+		(property "Reference" "D5"
+			(at 86.36 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +9295,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 131.318 60.452 0)
+			(at 93.218 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,7 +9303,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 76.2 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8991,7 +9312,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 63.5 0)
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,8 +9320,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 127 63.5 0)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,18 +9339,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "6c5b45f0-587d-4e6c-8a0e-39f561b491b4")
+			(uuid "dd487b65-4f6c-46b3-abbf-cee116cc4951")
 		)
 		(pin "1"
-			(uuid "fc2465fc-1f10-41b3-989c-0d85fea037e4")
+			(uuid "87cbc3c3-6aa3-41a8-8d8c-1aeeae6139d9")
 		)
 		(pin "3"
-			(uuid "b819e554-ebfb-473a-91b7-37d0ffe68300")
+			(uuid "463dbacf-dd6e-41b8-8539-a113995ed5d6")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D10")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9087,74 +9417,6 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 162.56 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "914e44af-ec68-4f96-ae13-a64c29b1c000")
-		(property "Reference" "R18"
-			(at 173.228 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 177.8 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 162.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8338f0d2-aa39-4f1e-9d63-8e46d58c0b34")
-		)
-		(pin "2"
-			(uuid "3c6ff281-99a5-4b33-86cd-d1c04cc9af8a")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9230,15 +9492,15 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
-		(at 124.46 119.38 270)
+		(at 162.56 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "936d5de9-0752-4e7d-8be8-d0b15890a05b")
-		(property "Reference" "R14"
-			(at 135.128 119.38 90)
+		(uuid "939bc8ad-1c7c-489b-b974-4b5cf5739cbf")
+		(property "Reference" "R22"
+			(at 172.72 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9246,7 +9508,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 139.7 119.38 90)
+			(at 177.292 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9254,7 +9516,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:R_0805"
-			(at 124.46 119.38 0)
+			(at 162.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,8 +9524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 124.46 119.38 0)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 162.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9271,8 +9533,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 119.38 0)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 162.56 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,15 +9552,92 @@
 			)
 		)
 		(pin "1"
-			(uuid "5aca8d61-4d4f-4113-a9f5-1437a45ff1bd")
+			(uuid "d5969cca-d1db-449d-b30e-fb2b734da0f6")
 		)
 		(pin "2"
-			(uuid "5d3e07d0-3066-4b59-98d9-f582e907ef16")
+			(uuid "608d9755-5ec9-4d8d-bda4-5a64bde05626")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R14")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 86.36 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9491c783-6c5d-4b97-8e7f-e35ca0725cff")
+		(property "Reference" "R8"
+			(at 96.52 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 101.092 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 86.36 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f5a6f0b-a313-448a-86dd-64262ba170b1")
+		)
+		(pin "2"
+			(uuid "3c5061b5-2288-4df6-a14c-013b9893c6f5")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9298,15 +9646,15 @@
 	(symbol
 		(lib_name "BAV99_1")
 		(lib_id "000_LOCAL:BAV99")
-		(at 127 139.7 0)
+		(at 165.1 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "94260e44-f591-4ea8-a822-74fced8c96fa")
-		(property "Reference" "D16"
-			(at 124.46 136.652 0)
+		(uuid "94df05f0-560d-43e4-a70e-11ba48d31841")
+		(property "Reference" "D22"
+			(at 162.56 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9662,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 131.318 136.652 0)
+			(at 169.418 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,7 +9670,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 152.4 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9679,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 139.7 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,8 +9687,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 127 139.7 0)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,154 +9706,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "315e1d37-a3fc-4e04-8136-746bf04b102a")
+			(uuid "f36c3743-cda7-44ac-91c1-5aaf4150225e")
 		)
 		(pin "1"
-			(uuid "e6484c72-73a9-43a6-9e46-926aac53420d")
+			(uuid "3170f0e3-6550-44f2-b8ff-a2712cbe70cd")
 		)
 		(pin "3"
-			(uuid "621b54f3-cd9d-43de-9b55-174b64b12823")
+			(uuid "34e6db25-42e3-4766-b884-46dd09ae0390")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 86.36 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "942a9696-393c-44c7-bbe0-807210685de9")
-		(property "Reference" "R3"
-			(at 96.52 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 101.092 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 86.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3532f22-4f75-4ca1-bcf1-3d427101bbc1")
-		)
-		(pin "2"
-			(uuid "0111f423-e0d4-4eb2-83f7-828bd15fecf8")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 124.46 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9704bf91-b963-4842-8098-a94cded227f0")
-		(property "Reference" "R16"
-			(at 135.128 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 139.7 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 124.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2476869-5f86-4844-9209-f2fbf733ff71")
-		)
-		(pin "2"
-			(uuid "cdde91dc-fb3a-4e47-aec1-b1a676ad4d9c")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R16")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -9570,42 +9791,33 @@
 		)
 	)
 	(symbol
-		(lib_id "000_LOCAL:Conn_02x15_Odd_Even")
-		(at 38.1 95.25 0)
-		(mirror x)
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 86.36 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9b910c7f-2658-4050-ab20-b1c595dbd5ca")
-		(property "Reference" "J2"
-			(at 39.37 70.612 0)
+		(uuid "9a626bab-7e25-465c-b691-a0ad6af0f6ea")
+		(property "Reference" "R3"
+			(at 96.52 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_02x15_Odd_Even"
-			(at 39.624 73.152 0)
+		(property "Value" "220"
+			(at 101.092 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:IDC_02x15_2.54_THT_male_pcb_edge"
-			(at 38.1 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 95.25 0)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 86.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9613,8 +9825,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 95.25 0)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 86.36 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,99 +9853,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "03f1915f-50e8-425f-a402-9cf4e2871526")
-		)
-		(pin "10"
-			(uuid "a139deaf-4e0e-4667-838c-9193cc35b009")
-		)
-		(pin "11"
-			(uuid "1cc1b101-bdaa-4c48-9e8f-e0f5b3888178")
-		)
-		(pin "12"
-			(uuid "02eb010a-6fc7-4cc3-9f73-2b4b1cd177cb")
-		)
-		(pin "13"
-			(uuid "bc0925d2-b151-4f4e-8f76-9d5007db2130")
-		)
-		(pin "14"
-			(uuid "a74bafa2-bdd0-4012-9117-f4fa9b57ff66")
-		)
-		(pin "15"
-			(uuid "7eb6e64e-52ae-44ec-8d6b-480ce47360e0")
-		)
-		(pin "16"
-			(uuid "023e1498-9fb5-47a6-a287-9b29e3c9d848")
-		)
-		(pin "17"
-			(uuid "33da0d47-38d8-4775-8676-80a5bd0b00b8")
-		)
-		(pin "18"
-			(uuid "13417e79-a3d0-489f-ae8e-9d18d81df641")
-		)
-		(pin "19"
-			(uuid "2c22794b-4f50-4c34-b0c1-5ddf8f13f787")
+			(uuid "cd9cfb5c-7d72-4f49-9042-9ff61fb0daea")
 		)
 		(pin "2"
-			(uuid "2a24c0ac-0b5c-4054-897c-e5539895431d")
-		)
-		(pin "20"
-			(uuid "0cdf0c74-4cd0-4ac0-92ff-d4a4ef6fe1bc")
-		)
-		(pin "21"
-			(uuid "bb73b30e-38f3-4c21-b4a3-ff38c0da5967")
-		)
-		(pin "22"
-			(uuid "45960461-e0bc-40e9-85f1-7f0d9fd1fc6b")
-		)
-		(pin "23"
-			(uuid "2acb75ba-945c-4cdd-b4c5-6a8a2fd8d018")
-		)
-		(pin "24"
-			(uuid "b2a9e09a-b91d-4ae0-82db-0abb92e54c18")
-		)
-		(pin "25"
-			(uuid "f50674fa-1a9e-4a5c-876d-d8cd51cdd7d8")
-		)
-		(pin "26"
-			(uuid "291a29b0-79a0-4836-b7ca-e2ffc1f3a585")
-		)
-		(pin "3"
-			(uuid "a65abe92-7e4e-4d90-babb-887a5879223c")
-		)
-		(pin "4"
-			(uuid "fb761b7c-8700-4d95-9165-a5a771518450")
-		)
-		(pin "5"
-			(uuid "4870b4fd-776d-48d2-b509-5fc74be8f73c")
-		)
-		(pin "6"
-			(uuid "b6287840-11f2-4c6f-b11d-fdb46576bd2c")
-		)
-		(pin "7"
-			(uuid "909c14dc-46cd-4254-8743-03c7d7d7a713")
-		)
-		(pin "8"
-			(uuid "1ade4dff-4c0c-4a8d-a0a5-4714a29520b8")
-		)
-		(pin "9"
-			(uuid "e8622e97-33b6-4640-a838-e54683c7befd")
-		)
-		(pin "28"
-			(uuid "39fdc4b7-c146-4154-97c1-7633742bd11f")
-		)
-		(pin "27"
-			(uuid "a68bd9ca-6498-436d-909e-ac90dba7e3a0")
-		)
-		(pin "30"
-			(uuid "050920f6-fdf0-4dc7-bae4-b3a0b2f94586")
-		)
-		(pin "29"
-			(uuid "0dd4e0df-9ceb-4aa0-b1b6-a4ddcdef445f")
+			(uuid "e04564e9-4032-401e-9dc2-6ca84a153a8c")
 		)
 		(instances
-			(project ""
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "J2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9791,15 +9937,15 @@
 	(symbol
 		(lib_name "BAV99_1")
 		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 139.7 0)
+		(at 88.9 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a2012481-24d6-4712-840e-97bca69841ac")
-		(property "Reference" "D24"
-			(at 162.56 136.652 0)
+		(uuid "a33817a0-889a-4ed4-be69-6a5d923233c2")
+		(property "Reference" "D8"
+			(at 86.36 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +9953,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 169.418 136.652 0)
+			(at 93.218 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,7 +9961,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 152.4 0)
+			(at 88.9 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,7 +9970,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 139.7 0)
+			(at 88.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9832,8 +9978,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 165.1 139.7 0)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 88.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9842,18 +9997,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "3c85c8d1-7ebc-4812-b4bc-82de028b11d7")
+			(uuid "2b7443c2-8235-4973-8b75-5a4ce6aba3bf")
 		)
 		(pin "1"
-			(uuid "bb067fa1-2edc-4b2b-98ea-1b368232eee5")
+			(uuid "f9b1174c-b357-4a7f-a666-f426fdfdf561")
 		)
 		(pin "3"
-			(uuid "68a4e95a-1cea-4e90-a1cc-0a980597fa84")
+			(uuid "f32069ec-6be6-45a5-a4e7-75d97e138351")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D24")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -9926,33 +10081,192 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 124.46 93.98 270)
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 127 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a3a8b321-d553-42a2-8c10-ef93c565bf29")
-		(property "Reference" "R12"
-			(at 135.128 93.98 90)
+		(uuid "a35a26c0-390d-42cc-b51c-1f84c96bc5e2")
+		(property "Reference" "D12"
+			(at 124.46 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 139.7 93.98 90)
+		(property "Value" "BAV99"
+			(at 131.318 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 124.46 93.98 0)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c2170d6-a420-46e4-8446-885b8bb0e668")
+		)
+		(pin "1"
+			(uuid "629ec02a-e9ef-44b3-a112-cce33b624fdd")
+		)
+		(pin "3"
+			(uuid "47f657ba-a459-4461-bba1-21c598f9fea0")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 165.1 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a64083dd-5d35-46ca-b1be-3b7479e545b7")
+		(property "Reference" "D24"
+			(at 162.56 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 169.418 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76a43fcf-66c1-409f-bd1e-f940c3608b09")
+		)
+		(pin "1"
+			(uuid "8b384e88-0f0a-4eb1-bc56-6f3e87bd6f11")
+		)
+		(pin "3"
+			(uuid "5a930af6-7cfc-4796-88e2-48e0119e4b70")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:Conn_01x02_Pin")
+		(at 144.78 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a780d1a9-5e4b-4f61-9c74-eb5f2236cee2")
+		(property "Reference" "J4"
+			(at 144.78 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 144.78 166.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +10275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 93.98 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,8 +10283,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 93.98 0)
+		(property "Description" "CONN HEADER R/A 2POS 2.54MM"
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,16 +10292,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "768dcfb4-637b-493c-b52d-05c0e02ac2d2")
+		(property "MPN" "PH1RB-02-UA"
+			(at 144.78 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "9a1ec5a4-72d4-47f4-a865-c9e33762a882")
+			(uuid "fd787f18-4d41-49db-9fb8-e7b2ba4df64a")
+		)
+		(pin "1"
+			(uuid "4971ca37-f16c-4f73-9c49-5651d131d5f8")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R12")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10127,42 +10450,33 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 124.46 132.08 270)
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 88.9 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a9886ed2-7fb8-4ff8-9983-c89e3cd0584c")
-		(property "Reference" "R15"
-			(at 135.128 132.08 90)
+		(uuid "ac62a7d5-8138-4273-b8dd-98bfc92df7e9")
+		(property "Reference" "D7"
+			(at 86.36 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 139.7 132.08 90)
+		(property "Value" "BAV99"
+			(at 93.218 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 124.46 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 132.08 0)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10170,8 +10484,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 132.08 0)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10179,16 +10493,37 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3f848600-2aa3-495d-8029-8a36122a02de")
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "cd607d69-5f3f-42e0-9b22-9f1762d96641")
+			(uuid "d3409ca3-3a0d-4e43-bb0a-6ff5b0507233")
+		)
+		(pin "1"
+			(uuid "0f972ac0-e45e-4b03-9829-4b2748df5fc2")
+		)
+		(pin "3"
+			(uuid "b55cb121-d84d-4c68-a021-2e30efab1f15")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R15")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -10263,15 +10598,15 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
-		(at 162.56 144.78 270)
+		(at 162.56 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ae68513e-8a05-4cea-a8c7-346aa162079a")
-		(property "Reference" "R24"
-			(at 173.228 144.78 90)
+		(uuid "adfae264-5d43-4712-acd6-cb2ede7d4f14")
+		(property "Reference" "R18"
+			(at 172.72 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10279,7 +10614,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 177.8 144.78 90)
+			(at 177.292 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,7 +10622,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:R_0805"
-			(at 162.56 144.78 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,8 +10630,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 144.78 0)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10304,8 +10639,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 144.78 0)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,138 +10648,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "b3d79623-d64a-4910-a986-513997f77f6e")
-		)
-		(pin "2"
-			(uuid "082f9852-09ec-48a3-9fcb-f3c349b3d0cb")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aec9c899-d8f2-451d-a620-763d5de1f54a")
-		(property "Reference" "D9"
-			(at 124.46 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 131.318 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "11a0b17c-9a33-4d41-b9f0-0a7591b06b86")
-		)
-		(pin "1"
-			(uuid "b0c67661-8b1e-4832-bb0e-f80f1080d54c")
-		)
-		(pin "3"
-			(uuid "d6d4ccb6-cf72-42fe-88a7-6b8f74ba77fc")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 86.36 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af087697-fa37-4a30-83f8-e7a2083f7d55")
-		(property "Reference" "R4"
-			(at 96.52 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 101.092 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 86.36 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 93.98 0)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 162.56 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10453,150 +10658,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f85296d6-5c27-4f24-ae12-ad0783b808d6")
+			(uuid "d18662e1-15e5-4527-831c-40a65f7c2229")
 		)
 		(pin "2"
-			(uuid "8dd3e459-34b5-4e44-88bd-a8cce20893da")
+			(uuid "96d8501e-698d-4da0-a8cf-bcb5fd470bf0")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 168.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af0af41e-659e-4e99-9b35-33f9dcf2ed42")
-		(property "Reference" "R25"
-			(at 99.314 167.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 99.822 169.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 97.028 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a78963e-0e5f-496e-93f4-5ae234644cf6")
-		)
-		(pin "2"
-			(uuid "3f18470f-fa8c-4ac7-8350-3e51bc9e3edf")
-		)
-		(instances
-			(project ""
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 124.46 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0949f44-4c3d-400b-b60f-e860698d5598")
-		(property "Reference" "R13"
-			(at 135.128 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 139.7 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 124.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb3748b4-7d40-4d1e-8b05-fc0093c4c998")
-		)
-		(pin "2"
-			(uuid "dc103200-91fe-40f1-9098-ff3f58dcb21b")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R13")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10670,42 +10740,33 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 162.56 132.08 270)
+		(lib_id "000_LOCAL:Conn_02x15_Odd_Even")
+		(at 38.1 95.25 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b42957a8-70d6-4c1f-819f-7c29c6db7c59")
-		(property "Reference" "R23"
-			(at 173.228 132.08 90)
+		(uuid "b6d16aa3-17da-45f9-b1a2-b0cdba3b594a")
+		(property "Reference" "J2"
+			(at 39.37 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 177.8 132.08 90)
+		(property "Value" "Conn_02x15_Odd_Even"
+			(at 39.624 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 162.56 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 132.08 0)
+		(property "Footprint" "000_LOCAL:IDC_02x15_2.54_THT_male_pcb_edge"
+			(at 38.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10713,8 +10774,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 132.08 0)
+		(property "Datasheet" "datasheets/SBH11.pdf"
+			(at 38.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 30POS 2.54MM"
+			(at 38.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SBH11-PBPC-D15-ST-BK"
+			(at 38.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,83 +10802,99 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c556cf8-a34a-4007-8ca7-30c77290a866")
+			(uuid "cd08ff2a-5450-4442-ba7d-7de56ee63640")
+		)
+		(pin "10"
+			(uuid "e6997c33-57c7-4c0c-b2bb-a497e554ea9a")
+		)
+		(pin "11"
+			(uuid "e13684e9-124f-4a04-8724-3d0e66d7b34b")
+		)
+		(pin "12"
+			(uuid "aaa20397-4049-4c29-a2dd-55dac8c7b297")
+		)
+		(pin "13"
+			(uuid "f3734212-5393-4f76-84e6-fba7fe8dc43c")
+		)
+		(pin "14"
+			(uuid "34957152-0e67-49cc-9125-bc7ab17d378c")
+		)
+		(pin "15"
+			(uuid "29452375-e2e4-4356-bf99-238de959a163")
+		)
+		(pin "16"
+			(uuid "1719d93e-4a9e-4fa6-b121-50eca10f0f61")
+		)
+		(pin "17"
+			(uuid "26db2ff7-a2cb-4bfa-af13-87b34f34d779")
+		)
+		(pin "18"
+			(uuid "929e2d65-fda6-437d-a8ff-429fed2e2e58")
+		)
+		(pin "19"
+			(uuid "aa137d95-f813-4e38-88a7-8e34a61f2d46")
 		)
 		(pin "2"
-			(uuid "50b3f2d8-6389-494d-9cec-9b47c8578d4a")
+			(uuid "b16279d0-fe37-4410-be91-216569811d21")
+		)
+		(pin "20"
+			(uuid "eea38372-250b-42d9-998d-a0eb04e7c4f0")
+		)
+		(pin "21"
+			(uuid "849e9895-d454-4808-b3aa-8d11cf7aac28")
+		)
+		(pin "22"
+			(uuid "5fa0d933-b7aa-4556-b136-4e7e24b9e516")
+		)
+		(pin "23"
+			(uuid "38ca9926-b5c1-4cad-b1d6-060eb4b7a9b3")
+		)
+		(pin "24"
+			(uuid "4f26b136-7505-46fa-86dd-2c7632b4bbcd")
+		)
+		(pin "25"
+			(uuid "38005176-cdf8-4882-9964-e9e892225057")
+		)
+		(pin "26"
+			(uuid "c0a8ff52-298d-4e2f-8518-fc8efea0fc9b")
+		)
+		(pin "3"
+			(uuid "6134f27a-ffe8-4caf-a049-0f4e1f0f0f6e")
+		)
+		(pin "4"
+			(uuid "8cf6c16e-621e-41fa-a6d6-76f791d9f16c")
+		)
+		(pin "5"
+			(uuid "da40e770-bbc8-4188-8b8a-03d87981410d")
+		)
+		(pin "6"
+			(uuid "56d0c9d0-e2d9-4fb0-b414-beba805bcd61")
+		)
+		(pin "7"
+			(uuid "1269a7eb-1040-4a6f-8b0a-ea28fd0572de")
+		)
+		(pin "8"
+			(uuid "39dff666-71a9-4044-a628-a83069e9760c")
+		)
+		(pin "9"
+			(uuid "35281963-6836-476e-9bff-b7710100c46c")
+		)
+		(pin "28"
+			(uuid "52468f8d-0b35-4a88-bfe7-1890382a1873")
+		)
+		(pin "27"
+			(uuid "00049042-65f3-46e6-98d5-8b40d211d047")
+		)
+		(pin "30"
+			(uuid "13f2b380-42db-4d07-8ea8-4dde410f8b61")
+		)
+		(pin "29"
+			(uuid "a73143e9-71ff-445c-868b-3b6492f5aabb")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 86.36 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5c0ed90-ba3a-4881-bd02-15d593e112c0")
-		(property "Reference" "R6"
-			(at 96.52 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 101.092 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 86.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8be9e289-885a-4bc2-8e58-eb9c7fb24722")
-		)
-		(pin "2"
-			(uuid "70ce4175-f2ae-4a52-987c-fe10d295b4a4")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R6")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10866,77 +10961,6 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8fef80d-b8eb-44cc-acd2-3f63d882f999")
-		(property "Reference" "D14"
-			(at 124.46 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 131.318 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 127 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c38bd070-c3d6-4a03-b8e9-1b50762f2f1b")
-		)
-		(pin "1"
-			(uuid "c074a09c-0a5f-4aa3-9d13-56b008ea2b6f")
-		)
-		(pin "3"
-			(uuid "ec8d1f95-885c-411e-91f4-e302903dc845")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -11012,15 +11036,15 @@
 	(symbol
 		(lib_name "BAV99_1")
 		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 76.2 0)
+		(at 165.1 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b9d056b7-815a-4fbc-b8a0-315d23dcc869")
-		(property "Reference" "D3"
-			(at 86.36 73.152 0)
+		(uuid "b9c9c8d5-0d43-405e-a53b-a0fcbd58f7bb")
+		(property "Reference" "D20"
+			(at 162.56 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11028,7 +11052,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 93.218 73.152 0)
+			(at 169.418 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11036,7 +11060,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 88.9 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11045,7 +11069,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 76.2 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11053,8 +11077,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 88.9 76.2 0)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,18 +11096,94 @@
 			)
 		)
 		(pin "2"
-			(uuid "1ced6e8b-51b3-42fb-9fe1-0a82b01c1043")
+			(uuid "ac5641e3-4dcb-4f16-8ffa-5ace7ac0e0d2")
 		)
 		(pin "1"
-			(uuid "ee438fe0-4d83-42a4-8705-737bf1236077")
+			(uuid "6c862901-f82c-4c92-8db6-53ef658ffe35")
 		)
 		(pin "3"
-			(uuid "38c45f75-cbe8-42db-ada7-68ae53fe5069")
+			(uuid "6a7b6ac1-c064-4b90-b36e-ab688ee31318")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D3")
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba62b071-ac25-4f28-9884-259cae07e3bb")
+		(property "Reference" "R25"
+			(at 99.314 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 99.822 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 97.028 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 95.25 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/8W 0805"
+			(at 95.25 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-07100KL"
+			(at 95.25 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12df1cbe-0fbf-4ee7-b7fb-2f5bed016bcd")
+		)
+		(pin "2"
+			(uuid "a0436b3b-a51c-4ec9-82bc-4d533fa32b11")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -11214,42 +11323,33 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 86.36 144.78 270)
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 127 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb7e07c8-a1c5-4e1c-a8e5-a7da407e33dc")
-		(property "Reference" "R8"
-			(at 96.52 144.78 90)
+		(uuid "bd20c183-a0a5-463c-b8e4-ee569958d468")
+		(property "Reference" "D15"
+			(at 124.46 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 101.092 144.78 90)
+		(property "Value" "BAV99"
+			(at 131.318 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 86.36 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 144.78 0)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11257,8 +11357,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 144.78 0)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 127 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11266,16 +11366,37 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "858e4cd5-fbb0-4b1a-afa9-6512cb21d0cb")
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "bcf321eb-fe5d-44c4-bcb4-469f891947b6")
+			(uuid "f1e55a21-1080-46a9-bd9a-f2d8c936b4bb")
+		)
+		(pin "1"
+			(uuid "d8886193-e2a3-4422-9191-3c07ad3926e9")
+		)
+		(pin "3"
+			(uuid "35cf40ed-5b4f-4304-8b5a-b594c44e4612")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R8")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -11343,6 +11464,240 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 165.1 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c90826ca-0cb7-4ad2-b457-056f43c7e6ed")
+		(property "Reference" "D21"
+			(at 162.56 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 169.418 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "825585ef-3d3d-405d-a04a-2eb56dd93360")
+		)
+		(pin "1"
+			(uuid "b1efddfa-0287-4379-a0c8-3e50b049e16e")
+		)
+		(pin "3"
+			(uuid "f3987e55-89af-4dbd-8d2a-802786732882")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:Conn_01x02_Pin")
+		(at 121.92 172.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c95e8f89-98d6-41ce-b33e-a0a09bc5e1a7")
+		(property "Reference" "J3"
+			(at 121.92 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 121.92 166.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 121.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER R/A 2POS 2.54MM"
+			(at 121.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PH1RB-02-UA"
+			(at 121.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cb33bc1-9a3f-40eb-a997-86740264dbbb")
+		)
+		(pin "1"
+			(uuid "ed047215-eb28-48bc-abe7-1177addb9eaf")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 124.46 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cac96474-f7db-4a6f-9682-3c990e195b03")
+		(property "Reference" "R10"
+			(at 134.62 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 139.192 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 124.46 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab13a116-2870-41b3-aea3-18c05a2df88e")
+		)
+		(pin "2"
+			(uuid "89445886-139f-43f0-b557-0401397887c0")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11417,42 +11772,32 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 139.7 0)
+		(lib_id "MCU_RaspberryPi_and_Boards:Pico")
+		(at 241.3 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ce0c2612-391a-482b-a16d-d0f1b7248bcc")
-		(property "Reference" "D8"
-			(at 86.36 136.652 0)
+		(uuid "d5337a81-6149-48b8-9b15-8eff6fed0b59")
+		(property "Reference" "J1"
+			(at 241.3 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 93.218 136.652 0)
+		(property "Value" "Rasberry PI Pico"
+			(at 241.3 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 139.7 0)
+		(property "Footprint" "000_LOCAL:dip-40-700-pi-pico"
+			(at 241.3 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11460,8 +11805,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 88.9 139.7 0)
+		(property "Datasheet" "datasheets/rpi-pico.pdf"
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11469,158 +11814,157 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "36239322-ddea-4a78-b80b-0a0462fb89da")
+		(property "Description" "RASPBERRY PI PICO RP2040"
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SC0915"
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "8d82ec62-ebf6-404e-8cca-1f43dcc97764")
+			(uuid "85d5b6d0-2699-4f29-ac79-1b176ab819e1")
+		)
+		(pin "10"
+			(uuid "0db0eaca-a064-49f3-92f7-52a518e11158")
+		)
+		(pin "11"
+			(uuid "934a432d-03fe-4107-b7d8-ac1ba75c61fd")
+		)
+		(pin "12"
+			(uuid "478da697-4cbf-4f46-810b-1d8f81b0369e")
+		)
+		(pin "13"
+			(uuid "8833a4ed-8ae4-43dd-abd2-44ad8e6c0bbd")
+		)
+		(pin "14"
+			(uuid "5a18458e-f170-4187-9a21-f63856961597")
+		)
+		(pin "15"
+			(uuid "d3bda8e9-8056-467b-9edc-a2d70f46e885")
+		)
+		(pin "16"
+			(uuid "0ba5279f-f987-4444-ad41-62012a156a26")
+		)
+		(pin "17"
+			(uuid "ac3af1b6-fde2-450b-b768-540efb3a1e00")
+		)
+		(pin "18"
+			(uuid "cd62e94c-2af8-4268-953b-1aed7efdef54")
+		)
+		(pin "19"
+			(uuid "41fb804c-48c8-4257-8b36-929f15f2321c")
+		)
+		(pin "2"
+			(uuid "50671b2d-3e0a-4cd5-bfbd-b78925b781ca")
+		)
+		(pin "20"
+			(uuid "5470a708-644d-4ae2-b0cb-98de22352a79")
+		)
+		(pin "21"
+			(uuid "08655937-3656-4ca3-9498-0ea9e5612dc5")
+		)
+		(pin "22"
+			(uuid "e4d885ca-5152-4f2a-b0b0-6c2b88afe0ea")
+		)
+		(pin "23"
+			(uuid "e510929a-2af4-423f-8637-f6119d37125d")
+		)
+		(pin "24"
+			(uuid "9e3611ea-3fbf-46c5-8c6a-5cae8293fb21")
+		)
+		(pin "25"
+			(uuid "363739d4-fdb8-4970-b8f8-4c80a26813ba")
+		)
+		(pin "26"
+			(uuid "e582212e-d436-4135-a5f9-36e47953722f")
+		)
+		(pin "27"
+			(uuid "beafb576-4a88-49ec-af0c-8cf16c8a2781")
+		)
+		(pin "28"
+			(uuid "0d8373df-c622-4d89-8dd8-6aab0034e33e")
+		)
+		(pin "29"
+			(uuid "01266fb9-9aae-47ac-83bf-6761ea16b00f")
 		)
 		(pin "3"
-			(uuid "1fc79a87-a0b3-45d1-a3ee-a27a5deb33bc")
+			(uuid "e9660b90-b412-44fb-90bb-692636360f7e")
+		)
+		(pin "30"
+			(uuid "b9006776-8b0e-40ad-8bce-d43e2e1e5409")
+		)
+		(pin "31"
+			(uuid "77d607a8-1afe-4d95-b383-0d7c19e81cff")
+		)
+		(pin "32"
+			(uuid "8ce1be95-5fcf-4608-90b1-f19736357a00")
+		)
+		(pin "33"
+			(uuid "2554d0cc-1f59-46f3-82c0-2f06b2a74c46")
+		)
+		(pin "34"
+			(uuid "3c3f50a2-636b-4fbc-bb1b-29ac3c6b02b6")
+		)
+		(pin "35"
+			(uuid "3ae4f8c3-eff0-4758-8603-c2fc34e3907d")
+		)
+		(pin "36"
+			(uuid "bf95e37b-e1c3-47a8-93a0-9f7ceb1d1ae1")
+		)
+		(pin "37"
+			(uuid "e61ecbc1-c16f-424e-9f15-a81b537f4b9c")
+		)
+		(pin "38"
+			(uuid "4bcba9d8-fa4a-4174-b1d3-5ac7fc4eea1e")
+		)
+		(pin "39"
+			(uuid "28010c2a-68b7-4327-9fbf-072d3a2e1b22")
+		)
+		(pin "4"
+			(uuid "f6eb0b0f-8bc6-4920-ab77-9189a28ce5eb")
+		)
+		(pin "40"
+			(uuid "45bc5266-f7ba-479d-997d-e024a25f6043")
+		)
+		(pin "41"
+			(uuid "c0c53710-bf68-4100-af26-8816878b5f89")
+		)
+		(pin "42"
+			(uuid "a9ffcd13-2d66-43f5-aa1b-aab76f4729f5")
+		)
+		(pin "43"
+			(uuid "1ab5a8fb-d450-4d1d-bedc-ed1eb689ed3d")
+		)
+		(pin "5"
+			(uuid "392b1d3b-77fe-4313-a454-6676a00162e7")
+		)
+		(pin "6"
+			(uuid "e05291ef-33ee-41ce-8c7d-b174f2bae693")
+		)
+		(pin "7"
+			(uuid "f1ca25c6-7617-4230-a236-223bfbb96aef")
+		)
+		(pin "8"
+			(uuid "4d56ffa9-84cd-44a7-8c8e-28a863384e1a")
+		)
+		(pin "9"
+			(uuid "708a0db9-e6a7-435d-9971-fec6cf7f2c09")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfc2620d-58ba-472e-9dee-2982f3c355b2")
-		(property "Reference" "D15"
-			(at 124.46 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 131.318 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca66e134-d2fd-4b90-8b36-8eb452577483")
-		)
-		(pin "1"
-			(uuid "9a43a2ef-528f-4ddb-880e-0e1cfbedea99")
-		)
-		(pin "3"
-			(uuid "374e31a6-27f7-4e13-b4e5-de211b73dedf")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 86.36 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1256096-fd99-4f0c-bfd8-dae0a8e5ac54")
-		(property "Reference" "R5"
-			(at 96.52 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 101.092 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 86.36 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a89b1d04-9885-4258-88a9-5f170945dc66")
-		)
-		(pin "2"
-			(uuid "318b35fc-9622-4cac-a096-b451150bd80a")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11670,7 +12014,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
 			(at 88.9 50.8 0)
 			(effects
 				(font
@@ -11700,15 +12053,15 @@
 	(symbol
 		(lib_name "BAV99_1")
 		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 101.6 0)
+		(at 127 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d833a904-6e8a-4b19-a11b-c50eeb03fbf6")
-		(property "Reference" "D21"
-			(at 162.56 98.552 0)
+		(uuid "d6cdd0df-27f5-4434-829c-37b9a22c8d6b")
+		(property "Reference" "D14"
+			(at 124.46 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11716,7 +12069,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 169.418 98.552 0)
+			(at 131.318 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11724,7 +12077,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 114.3 0)
+			(at 127 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,7 +12086,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 101.6 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,8 +12094,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 165.1 101.6 0)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,70 +12103,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "ca12524a-8cd6-4f51-a57b-d20206d86910")
-		)
-		(pin "1"
-			(uuid "6c8e1cb1-0baa-4278-8ed5-6a4dba299dba")
-		)
-		(pin "3"
-			(uuid "acdc30fa-f726-4644-8d5f-98e4bd887251")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8636483-ba80-465c-b588-761ff77060e5")
-		(property "Reference" "D6"
-			(at 86.36 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 93.218 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 88.9 114.3 0)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11822,18 +12113,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "f545455a-5c65-4206-b6b4-9ae2d606bc0a")
+			(uuid "c0457a99-2ac1-49db-bf6c-a9e9c22de3e0")
 		)
 		(pin "1"
-			(uuid "d417bf74-0f29-4473-afe1-14e2aa890ff3")
+			(uuid "e942fe08-5b30-4c43-bc69-e2bd9cb0e52b")
 		)
 		(pin "3"
-			(uuid "0fc669f8-08d3-4d32-9572-55dd0fac0a7a")
+			(uuid "a9f09ab3-cf79-4039-85d9-eaf58fbe33dd")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D6")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -12307,42 +12598,34 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 124.46 68.58 270)
+		(lib_name "BAV99_1")
+		(lib_id "000_LOCAL:BAV99")
+		(at 95.25 158.75 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ebb6483b-664e-49ec-992d-1d0fde326417")
-		(property "Reference" "R10"
-			(at 135.128 68.58 90)
+		(uuid "eb425dc0-9af1-426b-9a48-59be1ce51c6e")
+		(property "Reference" "D25"
+			(at 97.79 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 139.7 68.58 90)
+		(property "Value" "BAV99"
+			(at 90.932 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 124.46 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 68.58 0)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 95.25 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12350,8 +12633,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 68.58 0)
+		(property "Datasheet" "datasheets/BAV99.pdf"
+			(at 95.25 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12359,16 +12642,37 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4675bfcd-85a1-43b6-9759-b291ed389d21")
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "64f090a6-f9d2-4c50-a1c6-91073af4d2ca")
+			(uuid "317d4271-4a0b-4df0-880b-fec7c0d0cdef")
+		)
+		(pin "1"
+			(uuid "17e48a67-12b5-40d9-a4d1-2c1bd87dd2a5")
+		)
+		(pin "3"
+			(uuid "9b89436b-18b9-4bef-9bf2-8e974c3302cd")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R10")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -12383,9 +12687,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ec022927-e701-4a29-899f-80c92c474214")
+		(uuid "edec13e1-ba2a-40a7-8e74-b2a10017062e")
 		(property "Reference" "R19"
-			(at 173.228 81.28 90)
+			(at 172.72 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12393,7 +12697,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 177.8 81.28 90)
+			(at 177.292 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12409,7 +12713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
 			(at 162.56 81.28 0)
 			(effects
 				(font
@@ -12418,8 +12722,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
 			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 162.56 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12428,15 +12741,92 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7c14f59-b2c8-4693-9ede-3d364396740b")
+			(uuid "7112316a-c65c-41de-acab-eebb809e4886")
 		)
 		(pin "2"
-			(uuid "792eb6f2-b8a1-4112-a9ab-f3493ff18088")
+			(uuid "f2948e30-136d-4c74-a003-9e1a48f9926c")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "000_LOCAL:R_Small")
+		(at 124.46 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee9c97f9-ac64-4671-99ca-d5b3c81dbcb8")
+		(property "Reference" "R15"
+			(at 134.62 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 139.192 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000_LOCAL:R_0805"
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/TE-1-2176341-7.pdf"
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1% 1/8W 0805"
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
+			(at 124.46 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7140881-6d48-4b47-9c42-7c70d55fc2f5")
+		)
+		(pin "2"
+			(uuid "58ae83d3-3f7e-4b05-ad98-ac65a857a064")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12510,153 +12900,17 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 86.36 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0f4497e-1f1b-47a3-a77d-4a9d4338f8c1")
-		(property "Reference" "R7"
-			(at 96.52 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 101.092 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 86.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79dc16f6-92f9-4587-92d1-b6b6decf7a87")
-		)
-		(pin "2"
-			(uuid "1e07e3e6-9422-4d22-a5ce-699b52350241")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "000_LOCAL:R_Small")
-		(at 124.46 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4c0dc97-ca64-4e95-8672-34fd0364d1c4")
-		(property "Reference" "R9"
-			(at 134.62 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 139.7 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:R_0805"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5019fc7-3ceb-4c74-98c3-23e1395e57f0")
-		)
-		(pin "2"
-			(uuid "32037b56-0807-4dcf-b20e-0f8678b17c65")
-		)
-		(instances
-			(project "peeko_jy"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "BAV99_1")
 		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 88.9 0)
+		(at 165.1 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ff85ecd7-fc27-40ff-a7d6-5f3b749c0fc4")
-		(property "Reference" "D4"
-			(at 86.36 85.852 0)
+		(uuid "f17150f8-dddf-46bf-9b75-0f7ad290e7a4")
+		(property "Reference" "D18"
+			(at 162.56 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,7 +12918,7 @@
 			)
 		)
 		(property "Value" "BAV99"
-			(at 93.218 85.852 0)
+			(at 169.418 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12672,7 +12926,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 101.6 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12681,7 +12935,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 88.9 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12689,8 +12943,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 88.9 88.9 0)
+		(property "Description" "Diode Array 1 Pair Series Connection"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Nexperia BAV99,215"
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12699,18 +12962,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "da63c551-3a6f-4acd-b3eb-d5df4a0ddfb4")
+			(uuid "c8f117df-6ce1-42cf-b769-2c9afd1c5172")
 		)
 		(pin "1"
-			(uuid "f911784f-b0d3-4b8f-9ccf-aaa7db40a0fc")
+			(uuid "bef98682-b6be-436b-855e-f2e06058a3e2")
 		)
 		(pin "3"
-			(uuid "044bd2ef-9b16-4456-95a9-eca617006168")
+			(uuid "1a170ca9-40d3-47d4-9033-da4c485ddb4f")
 		)
 		(instances
-			(project "peeko_jy"
+			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D4")
+					(reference "D18")
 					(unit 1)
 				)
 			)

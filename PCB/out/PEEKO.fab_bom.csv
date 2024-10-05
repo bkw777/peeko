@@ -1,8 +1,0 @@
-"Reference","Value","Datasheet","Footprint","Qty","DNP","MPN"
-"C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12","100n","datasheets/UPY-GPHC_X7R_6.3V-to-250V_24.pdf","000_LOCAL:C_0805","12","","CC0805KRX7R9BB104"
-"D1","LL4148","datasheets/ll4148.pdf","000_LOCAL:D_MiniMELF","1","","FDLL4148"
-"J1","Rasberry PI Pico","datasheets/rpi-pico.pdf","000_LOCAL:dip-40-700-pi-pico","1","","SC0915"
-"J2","Conn_02x15_Odd_Even","datasheets/SBH11.pdf","000_LOCAL:IDC_02x15_2.54_THT_male_pcb_edge","1","","SBH11-PBPC-D15-ST-BK"
-"J3,J4","Conn_01x02_Pin","~","000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal","2","","PH1RB-02-UA"
-"R1","100k","datasheets/PYu-RC_Group_51_RoHS_L_12.pdf","000_LOCAL:R_0805","1","","RC0805FR-07100KL"
-"U1,U2,U3,U4,U5,U6","TXU0104","datasheets/txu0104.pdf","000_LOCAL:TSSOP-14_4.4x5mm_P0.65mm","6","","TXU0104PW"

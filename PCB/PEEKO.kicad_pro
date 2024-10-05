@@ -457,7 +457,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "peeko.kicad_pro",
+    "filename": "PEEKO.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -503,7 +503,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "out/PEEKO.fab_bom.csv",
+    "bom_export_filename": "out/${TITLE}.fab_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
