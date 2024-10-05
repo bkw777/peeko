@@ -2,14 +2,25 @@
  * Housing for PEEKO
  */
 
+model = "peeko";
+//model = "brute";
+
 mil = 0.0254;
 //mw = 0.8; // minimum allowed wall thickness
 fc = 0.2;   // fitment clearance
 e = 0.1;    // epsilon (overlap/overcut)
+peeko = (model=="peeko")?true:false;
+brute = (model=="brute")?true:false;
 
+
+pcb_stl =
+  (brute) ? "inc/PEEKO-Brute.stl":
+            "inc/PEEKO.stl";
 
 pcb_w = 2050*mil;   // X
-pcb_d = 1700*mil;   // Y
+pcb_d =             // Y
+  (brute) ? 1800*mil:
+            1700*mil;
 pcb_h = 1.6;        // Z
 pcb_r = 100*mil;    // corner radius
 
@@ -42,7 +53,7 @@ lw = ledge_width + fc;
 use <inc/handy.scad>
 
 module fit_parts() {
-  import("inc/PEEKO.stl");
+  import(pcb_stl);
 }
 
 module body () {
@@ -74,6 +85,8 @@ module body () {
         uy = 470*mil; // pcb edge to usb center
         translate([-pcb_w/2,pcb_d/2-uy,pcb_h+2.4]) rounded_cube(w=uw,d=ud,h=uh,rh=2,rv=2,t=0);
 
+        if (peeko) {
+
         // chain
         cx = 650*mil; // pcb edge to pin header center
         x = fc+wt+cr+e;
@@ -88,6 +101,8 @@ module body () {
         translate([pcb_w/2+fc,-pcb_d/2+vx +ve/2,pz])
           rounded_cube(w=cr+1+wt*2+1+cr,d=vd,h=eh,rh=cr,rv=cr,t=0);
 
+        } // if (peeko)
+
         // debugging cutaway
         //translate([0,ed/4+e/2,eh/2-below_eh-wt-e]) cube([e+ew+e,ed/2+e,e+eh+e],center=true);
 
@@ -96,7 +111,7 @@ module body () {
     
     // retainers
     rl = 30; // long cylinder in rear wall
-    rs = 2.1;  // short cylinders in front corners
+    rs = (brute) ? 6 : 2.1 ; // short cylinders at front corners
     rr = retainer_radius;
     rz = pcb_h+rr+fc;
     thr = pcb_r+fc; // torus horizontal radius
@@ -106,7 +121,7 @@ module body () {
       translate([pcb_w/2+fc,-pcb_d/2+pcb_r+rs/2-e,rz])
         rotate([90,0,0])
           cylinder(h=rs,r=rr,center=true);
-      // 1/4 tourus in front corners
+      // 1/4 torus in front corners
       translate([-pcb_w/2-fc+thr,-pcb_d/2-fc+thr,rz])
       rotate([0,0,180])
       intersection() {
