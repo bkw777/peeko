@@ -10,7 +10,7 @@ Alternate PCB for [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyz
 
 # BOM
 
-[PEEKO DigiKey cart](https://www.digikey.com/short/8hj0trj0)  ([PEEKO.DigiKey.bom.csv](peeko.digikey.bom.csv))
+[PEEKO DigiKey cart](https://www.digikey.com/short/nvf3b2qt)  ([PEEKO.DigiKey.bom.csv](peeko.digikey.bom.csv))
 
 # PROBES
 

@@ -1122,6 +1122,264 @@
 				)
 			)
 		)
+		(symbol "000_LOCAL:D_Schottky_Dual_Series_AKC"
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_Dual_Series_AKC"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Schottky diode, anode/cathode/center"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_Dual_Series_AKC_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -0.762 -1.27) (xy -0.762 -1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 4.318 -1.27) (xy 4.318 -1.016) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.302 1.27) (xy 3.302 1.016) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.016) (xy -1.778 1.27) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "000_LOCAL:Housing"
 			(pin_names
 				(offset 1.016)
@@ -1513,214 +1771,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-		)
-		(symbol "BAV99_1"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAV99"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "000_LOCAL:SC-59"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "datasheets/BAV99.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAV99_1_0_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAV99_1_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -4112,6 +4162,17 @@
 		)
 		(uuid "75405c38-0394-4fb8-9c03-f8716869550b")
 	)
+	(label "CHAIN"
+		(at 102.87 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79a5d8fa-3475-41b8-a1c9-bcd5bc2750cd")
+	)
 	(label "_CH3"
 		(at 223.52 86.36 180)
 		(fields_autoplaced yes)
@@ -4685,6 +4746,78 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0233d44b-99ac-4864-8776-41ec2db1b4f9")
+		(property "Reference" "D18"
+			(at 161.036 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 166.37 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dcbd965-f9d8-420a-b1b2-7cd0f6d5bad0")
+		)
+		(pin "2"
+			(uuid "86ab0473-5540-4ee9-81aa-4411b1946916")
+		)
+		(pin "3"
+			(uuid "6e2a5045-4e5d-4769-a763-ebf2b6ef34cd")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 134.62 139.7 270)
 		(unit 1)
@@ -4828,6 +4961,78 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "085f100d-10dd-46fa-81e8-282361757f91")
+		(property "Reference" "D21"
+			(at 161.036 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 166.37 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "210f4962-15ed-4c6f-b9b7-ece38c85c93d")
+		)
+		(pin "2"
+			(uuid "f2390c99-3de4-4d9b-8adc-02e0fd674e55")
+		)
+		(pin "3"
+			(uuid "839da85a-4697-44da-bf05-f693465d5658")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
 		(at 86.36 93.98 270)
@@ -4905,6 +5110,78 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ce2f1ae-0078-4905-aba9-c2ca82c9b1e0")
+		(property "Reference" "D3"
+			(at 84.836 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 90.17 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e230db97-fd46-496a-a181-f45423811a6d")
+		)
+		(pin "2"
+			(uuid "c1d61656-403e-449c-aba4-29a5fdef1aed")
+		)
+		(pin "3"
+			(uuid "fee3d293-75ea-4c19-a82a-de8f8017904e")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
 		(at 162.56 106.68 270)
@@ -4976,6 +5253,78 @@
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0df9fa64-6fbd-41ef-a5b0-2720aeea6671")
+		(property "Reference" "D8"
+			(at 84.836 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 90.17 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48c189d5-297b-49fa-ab1f-e1ee6d62fb2c")
+		)
+		(pin "2"
+			(uuid "799e38ce-e98b-4a32-a016-15acfd026b3c")
+		)
+		(pin "3"
+			(uuid "97cc4d66-be59-42aa-b975-bee133794cb5")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5106,86 +5455,6 @@
 			(project ""
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "N1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13786438-78fb-4456-a696-6c37cefd016b")
-		(property "Reference" "D13"
-			(at 124.46 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 131.318 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d8dfa517-8b74-4b94-a05b-2df6968c86e0")
-		)
-		(pin "1"
-			(uuid "62d20c40-c200-4dda-b727-c43fe9212f45")
-		)
-		(pin "3"
-			(uuid "18b57237-112f-4a1a-a880-7c4def18636e")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5326,6 +5595,78 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15086ff2-d35c-478a-8aa1-f5c87dcea7cf")
+		(property "Reference" "D1"
+			(at 84.836 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 90.17 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f713305-690c-48ac-b586-ea9a94dd4b16")
+		)
+		(pin "2"
+			(uuid "b32b3d1b-b0eb-456b-bed2-f1f5cea21695")
+		)
+		(pin "3"
+			(uuid "5cf57f2e-b4f1-4c54-85f1-d8a79491c8fa")
+		)
+		(instances
+			(project ""
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 96.52 114.3 270)
 		(unit 1)
@@ -5392,33 +5733,34 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 63.5 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1e563270-672b-4225-9a6b-569598277e59")
-		(property "Reference" "D2"
-			(at 86.36 60.452 0)
+		(uuid "22d165c2-ce8b-4a30-a02a-ada0c06adfdf")
+		(property "Reference" "D23"
+			(at 161.036 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 93.218 60.452 0)
+		(property "Value" "BAS70-04"
+			(at 166.37 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 76.2 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,8 +5768,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 63.5 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,37 +5777,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 88.9 63.5 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 88.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a80f0124-5821-4ab6-95b5-e0a9a99e2d43")
 		)
 		(pin "1"
-			(uuid "ed38eafe-1e3e-4921-bd91-4a692fc8873c")
+			(uuid "1e968d5c-0490-40f8-b115-21462e1fb66d")
+		)
+		(pin "2"
+			(uuid "3a56cc70-3531-4397-b85e-04003dbce1ee")
 		)
 		(pin "3"
-			(uuid "202906d2-b4f1-479f-89ff-3317eaf3c0da")
+			(uuid "887dc714-c481-415e-b95c-560a8d6b5415")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D2")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -5682,33 +6015,34 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 114.3 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "30569791-5947-4b88-9c30-8e64585447bc")
-		(property "Reference" "D6"
-			(at 86.36 111.252 0)
+		(uuid "2f2e1f70-9e1b-40e4-be95-9bbc58d9f411")
+		(property "Reference" "D10"
+			(at 122.936 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 93.218 111.252 0)
+		(property "Value" "BAS70-04"
+			(at 128.27 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 127 0)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,8 +6050,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 114.3 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,37 +6059,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 88.9 114.3 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3147c384-e4b1-42e4-a0d0-6ee5567f6547")
 		)
 		(pin "1"
-			(uuid "311aa323-0cd9-4763-963c-534c49c88040")
+			(uuid "1cf83df6-9dce-4b18-be3c-2e624e823a1b")
+		)
+		(pin "2"
+			(uuid "2ba7b2cb-bf72-43e5-a248-0d530d6db21e")
 		)
 		(pin "3"
-			(uuid "3fcbb57c-0178-47c2-8f0c-5f84a4f167b9")
+			(uuid "8df5a5ee-6826-4397-b942-12916a9c8f09")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D6")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6022,6 +6347,79 @@
 			(project "peeko_b"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 95.25 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36a89e47-0b18-4c0e-b0ea-94e3e3aa2a46")
+		(property "Reference" "D25"
+			(at 99.314 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 93.98 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51466882-430c-4f68-8496-19fa3f56138c")
+		)
+		(pin "2"
+			(uuid "6b30cc1e-d9a6-474e-a77e-b9bf6614eb60")
+		)
+		(pin "3"
+			(uuid "cf9fa1d3-cdc9-4d5b-833b-63742759d726")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -6449,86 +6847,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fe6bcd2-f435-4a0d-b5bf-1a164ba63906")
-		(property "Reference" "D10"
-			(at 124.46 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 131.318 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9b2b436d-e6a1-401e-9263-92756dd9063b")
-		)
-		(pin "1"
-			(uuid "122243c1-ff85-4c32-8842-43b2d66a5bc1")
-		)
-		(pin "3"
-			(uuid "134a873e-4fdf-4722-8841-4fe893d3eec4")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
 		(at 162.56 55.88 270)
@@ -6666,6 +6984,78 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42d7a49e-c542-468e-8638-fbf44a840e3c")
+		(property "Reference" "D9"
+			(at 122.936 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 128.27 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "515686b6-c8a7-4ffd-bcf0-fc73bf5267a8")
+		)
+		(pin "2"
+			(uuid "eeb4073a-2aaf-4fcc-986b-9d22250d0318")
+		)
+		(pin "3"
+			(uuid "51ba9a15-57c5-4095-876a-ed53cee51dca")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6877,246 +7267,6 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4dda950e-09cd-4b90-aa85-67235517dcaa")
-		(property "Reference" "D16"
-			(at 124.46 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 131.318 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 127 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 127 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b2ebde5-0c4b-4526-bc8e-de5b952e9090")
-		)
-		(pin "1"
-			(uuid "f0e26cf4-fc59-4601-b2eb-26e3ae6c8e11")
-		)
-		(pin "3"
-			(uuid "5504fb13-1df1-4e8e-b096-f3b81f050009")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ef2fada-36e9-40fe-bcad-bec133e6c15b")
-		(property "Reference" "D19"
-			(at 162.56 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 169.418 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7e64767-cb8f-4d43-b47b-d667f8b42cf7")
-		)
-		(pin "1"
-			(uuid "8e6f5d16-1ed5-4115-aa95-1194e4e9cfda")
-		)
-		(pin "3"
-			(uuid "cbe34e15-c682-4963-945f-1d42be4231f8")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f11efe3-b06a-48a3-b741-e5d3997fbc50")
-		(property "Reference" "D11"
-			(at 124.46 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 131.318 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 127 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 127 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21d68382-3b48-4753-b822-1779ffc50784")
-		)
-		(pin "1"
-			(uuid "432d107d-5524-4a6e-89d3-3d8bb497395e")
-		)
-		(pin "3"
-			(uuid "0256506e-2f3c-4559-bbea-da5d5bfc659b")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7410,86 +7560,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5795aeae-f781-496f-8485-de867794db0a")
-		(property "Reference" "D17"
-			(at 162.56 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 169.418 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 165.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 165.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8772604a-b703-49ff-b1bd-8e592677d992")
-		)
-		(pin "1"
-			(uuid "9bdc2e89-e9c1-4e41-ab5b-5a16fc25dd56")
-		)
-		(pin "3"
-			(uuid "0ccd7b9d-12a0-4ec4-a9e8-440b4d458dd6")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 96.52 76.2 270)
 		(unit 1)
@@ -7550,86 +7620,6 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ab37206-10ce-441b-8573-68ae80c225b5")
-		(property "Reference" "D4"
-			(at 86.36 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 93.218 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0386711-9d8e-4937-8720-e69b42b068be")
-		)
-		(pin "1"
-			(uuid "132a896d-c74e-4a33-994b-2c46e2315ed1")
-		)
-		(pin "3"
-			(uuid "09ab1f15-c79b-4a87-8968-513e07d25545")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7702,33 +7692,34 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 76.2 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5c844f64-74fb-4685-93af-e57b2cc34451")
-		(property "Reference" "D3"
-			(at 86.36 73.152 0)
+		(uuid "5ce8ed72-99ed-4321-96f9-26a4405bc279")
+		(property "Reference" "D14"
+			(at 122.936 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 93.218 73.152 0)
+		(property "Value" "BAS70-04"
+			(at 128.27 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 88.9 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,8 +7727,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 76.2 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,37 +7736,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 88.9 76.2 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 88.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50a42f5c-c2c0-4a5e-b701-c8503c64114b")
 		)
 		(pin "1"
-			(uuid "27368104-3ed3-4b61-b39c-521936fbaca6")
+			(uuid "fd6aebaf-7039-46ed-a87f-87e6f9c356da")
+		)
+		(pin "2"
+			(uuid "5393edee-cd8d-4262-8920-86e74a030958")
 		)
 		(pin "3"
-			(uuid "55b08752-9cc0-4949-8508-bc5debe0e583")
+			(uuid "ca904fcc-9c6c-4aea-9fcc-755912b01bbb")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D3")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -8062,86 +8044,6 @@
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64f9481d-c654-48c0-82d8-e516b74efc67")
-		(property "Reference" "D9"
-			(at 124.46 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 131.318 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d351ad18-e1eb-4b5d-b165-d7a0fb09b882")
-		)
-		(pin "1"
-			(uuid "d9245ee5-4c57-4dc2-bc32-634466219e58")
-		)
-		(pin "3"
-			(uuid "7dc07fcf-185e-46ed-a459-3c3e29a8b4c9")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8655,86 +8557,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75912ff5-7f00-4aeb-98d5-f193a7ac2d35")
-		(property "Reference" "D23"
-			(at 162.56 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 169.418 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39fb9751-a4fa-4494-97a2-5d5805a3b6e1")
-		)
-		(pin "1"
-			(uuid "b2e260f0-1696-45f1-ad05-7ff61e0e309f")
-		)
-		(pin "3"
-			(uuid "11109f56-cf0f-4da9-81b2-f413468bf13b")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 95.25 172.72 0)
 		(unit 1)
@@ -9011,6 +8833,78 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "823c309a-dc9a-4ccd-816a-de11256bf6d0")
+		(property "Reference" "D6"
+			(at 84.836 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 90.17 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c5fa057-0e70-4c37-ac6d-b1aa18c611c6")
+		)
+		(pin "2"
+			(uuid "9990fa90-e206-418f-af42-28407caa2406")
+		)
+		(pin "3"
+			(uuid "d23e7528-a8ae-4374-8ded-db3331016b36")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 127 270)
 		(unit 1)
@@ -9277,33 +9171,34 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 101.6 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c7d5d86-f64b-4b2b-9ba3-9221e2f72505")
-		(property "Reference" "D5"
-			(at 86.36 98.552 0)
+		(uuid "8bd7d0ad-5d06-4c0f-825e-851d8dc1fd5c")
+		(property "Reference" "D4"
+			(at 84.836 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 93.218 98.552 0)
+		(property "Value" "BAS70-04"
+			(at 90.17 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 114.3 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9311,8 +9206,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 101.6 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9320,37 +9215,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 88.9 101.6 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dd487b65-4f6c-46b3-abbf-cee116cc4951")
 		)
 		(pin "1"
-			(uuid "87cbc3c3-6aa3-41a8-8d8c-1aeeae6139d9")
+			(uuid "03fdf03b-ceef-4847-9a1f-d66a3ba0bdd0")
+		)
+		(pin "2"
+			(uuid "d9294279-90fa-4488-aadf-47d5170c43d9")
 		)
 		(pin "3"
-			(uuid "463dbacf-dd6e-41b8-8539-a113995ed5d6")
+			(uuid "031768e6-2502-4dc0-86b7-db2c320a4865")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9644,33 +9530,34 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 114.3 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "94df05f0-560d-43e4-a70e-11ba48d31841")
-		(property "Reference" "D22"
-			(at 162.56 111.252 0)
+		(uuid "94f65a10-0656-4a97-bb06-b841d86ab2ed")
+		(property "Reference" "D7"
+			(at 84.836 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 169.418 111.252 0)
+		(property "Value" "BAS70-04"
+			(at 90.17 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 127 0)
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,8 +9565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 114.3 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9687,37 +9574,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 165.1 114.3 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f36c3743-cda7-44ac-91c1-5aaf4150225e")
 		)
 		(pin "1"
-			(uuid "3170f0e3-6550-44f2-b8ff-a2712cbe70cd")
+			(uuid "7934cf8e-8129-4235-9bc4-be276805739e")
+		)
+		(pin "2"
+			(uuid "716d22fa-da63-4912-a9b0-d7166e020f27")
 		)
 		(pin "3"
-			(uuid "34e6db25-42e3-4766-b884-46dd09ae0390")
+			(uuid "7feea5c6-c607-4089-ad21-290e869bdef1")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D22")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9868,6 +9746,78 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c9a221a-a7b3-4375-8c54-63a226cfba62")
+		(property "Reference" "D24"
+			(at 161.036 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 166.37 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d6d3016-27cc-4fb0-a664-1c81a32173be")
+		)
+		(pin "2"
+			(uuid "70c08335-75f4-42e9-8c46-00fd7ce4f481")
+		)
+		(pin "3"
+			(uuid "523546f2-5eae-4ffb-9803-c7707991b9a9")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 139.7 270)
 		(unit 1)
@@ -9935,33 +9885,34 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 139.7 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a33817a0-889a-4ed4-be69-6a5d923233c2")
-		(property "Reference" "D8"
-			(at 86.36 136.652 0)
+		(uuid "a1d1e1d2-f3d2-4c5a-a027-282c4ffaf873")
+		(property "Reference" "D16"
+			(at 122.936 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 93.218 136.652 0)
+		(property "Value" "BAS70-04"
+			(at 128.27 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 152.4 0)
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,8 +9920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 139.7 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,37 +9929,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 88.9 139.7 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 88.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b7443c2-8235-4973-8b75-5a4ce6aba3bf")
 		)
 		(pin "1"
-			(uuid "f9b1174c-b357-4a7f-a666-f426fdfdf561")
+			(uuid "5f68b853-b2f7-4b7d-9535-f47e872c8696")
+		)
+		(pin "2"
+			(uuid "385d4e4a-52d5-4a8f-ba25-a328a840de7a")
 		)
 		(pin "3"
-			(uuid "f32069ec-6be6-45a5-a4e7-75d97e138351")
+			(uuid "02b0586e-ee19-4a0c-9428-2374bd1ea05d")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D8")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -10081,29 +10023,102 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 88.9 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a35a26c0-390d-42cc-b51c-1f84c96bc5e2")
-		(property "Reference" "D12"
-			(at 124.46 85.852 0)
+		(uuid "a6a304d5-2044-4d5c-ab9b-1afcf9404873")
+		(property "Reference" "D17"
+			(at 161.036 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 166.37 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "693f879b-83b4-42a1-a652-b8e7470a12bb")
+		)
+		(pin "2"
+			(uuid "640c979d-83d7-4645-a8a0-6dd8fdc034d7")
+		)
+		(pin "3"
+			(uuid "d6861da9-1f89-4d72-a024-c1bc512f76dd")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D17")
+					(unit 1)
 				)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 131.318 85.852 0)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7140122-c1fc-4a28-8fea-858889898e22")
+		(property "Reference" "D13"
+			(at 122.936 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 128.27 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
@@ -10115,8 +10130,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 88.9 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,117 +10139,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 127 88.9 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2c2170d6-a420-46e4-8446-885b8bb0e668")
 		)
 		(pin "1"
-			(uuid "629ec02a-e9ef-44b3-a112-cce33b624fdd")
+			(uuid "a3406bf7-b79b-49a2-9492-66e8d48db9bd")
+		)
+		(pin "2"
+			(uuid "2ddd4d50-d2c9-4463-a342-d86542dfa705")
 		)
 		(pin "3"
-			(uuid "47f657ba-a459-4461-bba1-21c598f9fea0")
+			(uuid "70aad7a4-ca2b-45eb-9bd2-8ff5a77af3ac")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a64083dd-5d35-46ca-b1be-3b7479e545b7")
-		(property "Reference" "D24"
-			(at 162.56 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 169.418 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76a43fcf-66c1-409f-bd1e-f940c3608b09")
-		)
-		(pin "1"
-			(uuid "8b384e88-0f0a-4eb1-bc56-6f3e87bd6f11")
-		)
-		(pin "3"
-			(uuid "5a930af6-7cfc-4796-88e2-48e0119e4b70")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D24")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -10450,86 +10376,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac62a7d5-8138-4273-b8dd-98bfc92df7e9")
-		(property "Reference" "D7"
-			(at 86.36 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 93.218 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3409ca3-3a0d-4e43-bb0a-6ff5b0507233")
-		)
-		(pin "1"
-			(uuid "0f972ac0-e45e-4b03-9829-4b2748df5fc2")
-		)
-		(pin "3"
-			(uuid "b55cb121-d84d-4c68-a021-2e30efab1f15")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 134.62 127 270)
 		(unit 1)
@@ -10673,6 +10519,78 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae096535-b139-46e6-a020-401cc505f465")
+		(property "Reference" "D15"
+			(at 122.936 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 128.27 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed7d3878-4f97-48fb-be52-d19cf0876a44")
+		)
+		(pin "2"
+			(uuid "36be94e9-1f52-4837-898e-5b9ffd6ed110")
+		)
+		(pin "3"
+			(uuid "91af34d9-e976-42e5-a7cd-5869f9281f9b")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 101.6 270)
 		(unit 1)
@@ -10734,6 +10652,78 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4780673-501a-45fc-93a3-d5913b9abaea")
+		(property "Reference" "D19"
+			(at 161.036 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 166.37 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "203c1009-22df-4645-81f5-842a6ff188c3")
+		)
+		(pin "2"
+			(uuid "e878d662-9c8b-4190-8ed3-0bf71f151def")
+		)
+		(pin "3"
+			(uuid "741e9bdf-bdf5-4fe5-89f3-cd93a756872b")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -11034,33 +11024,34 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 88.9 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b9c9c8d5-0d43-405e-a53b-a0fcbd58f7bb")
-		(property "Reference" "D20"
-			(at 162.56 85.852 0)
+		(uuid "ba41d9e7-9220-4caf-bb12-5b42e1b50455")
+		(property "Reference" "D5"
+			(at 84.836 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 169.418 85.852 0)
+		(property "Value" "BAS70-04"
+			(at 90.17 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 101.6 0)
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11068,8 +11059,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 88.9 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11077,37 +11068,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 165.1 88.9 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac5641e3-4dcb-4f16-8ffa-5ace7ac0e0d2")
 		)
 		(pin "1"
-			(uuid "6c862901-f82c-4c92-8db6-53ef658ffe35")
+			(uuid "59278d6c-232b-4e6a-b661-3f5a195a9ba5")
+		)
+		(pin "2"
+			(uuid "f488cb5e-7f1a-4425-aa34-79678ae4c469")
 		)
 		(pin "3"
-			(uuid "6a7b6ac1-c064-4b90-b36e-ab688ee31318")
+			(uuid "7073f15c-ffb2-47d8-9e7d-4e1e2b847a0d")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D20")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11323,33 +11305,34 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 127 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd20c183-a0a5-463c-b8e4-ee569958d468")
-		(property "Reference" "D15"
-			(at 124.46 123.952 0)
+		(uuid "c208732c-d203-45af-9ec2-4ec43d0fc4f4")
+		(property "Reference" "D2"
+			(at 84.836 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 131.318 123.952 0)
+		(property "Value" "BAS70-04"
+			(at 90.17 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 139.7 0)
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,8 +11340,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 127 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,37 +11349,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 127 127 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f1e55a21-1080-46a9-bd9a-f2d8c936b4bb")
 		)
 		(pin "1"
-			(uuid "d8886193-e2a3-4422-9191-3c07ad3926e9")
+			(uuid "fe066503-7793-4458-978f-5d16af92f315")
+		)
+		(pin "2"
+			(uuid "423b95b2-3aae-4bdf-8306-b0e0c3694b07")
 		)
 		(pin "3"
-			(uuid "35cf40ed-5b4f-4304-8b5a-b594c44e4612")
+			(uuid "96eb253a-f008-49bf-aeff-0b78c93b57b3")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D15")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11464,86 +11438,6 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c90826ca-0cb7-4ad2-b457-056f43c7e6ed")
-		(property "Reference" "D21"
-			(at 162.56 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 169.418 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "825585ef-3d3d-405d-a04a-2eb56dd93360")
-		)
-		(pin "1"
-			(uuid "b1efddfa-0287-4379-a0c8-3e50b049e16e")
-		)
-		(pin "3"
-			(uuid "f3987e55-89af-4dbd-8d2a-802786732882")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -11772,6 +11666,78 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf173450-57b1-498b-82cf-2abd0002f344")
+		(property "Reference" "D12"
+			(at 122.936 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 128.27 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a85228ce-077c-4708-8551-1d29e3a636ac")
+		)
+		(pin "2"
+			(uuid "1db5e613-32c9-4d0e-8468-b05ff03ecce1")
+		)
+		(pin "3"
+			(uuid "ad1bb489-a825-4986-bc32-8315a1cc377a")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi_and_Boards:Pico")
 		(at 241.3 95.25 0)
 		(unit 1)
@@ -11971,33 +11937,34 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 88.9 50.8 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d6263b1c-936b-4522-b25e-91974f531718")
-		(property "Reference" "D1"
-			(at 86.36 47.752 0)
+		(uuid "d634c209-a4a7-4a73-9f65-eedea49fc9ae")
+		(property "Reference" "D22"
+			(at 161.036 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 93.218 47.752 0)
+		(property "Value" "BAS70-04"
+			(at 166.37 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 63.5 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,8 +11972,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 88.9 50.8 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12014,117 +11981,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 88.9 50.8 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c066fc3-ea00-4b06-aca0-a40d633278a8")
 		)
 		(pin "1"
-			(uuid "7c27ad8d-a90c-4595-adab-a2d0aa6c366d")
-		)
-		(pin "3"
-			(uuid "8429362d-0642-4340-b84b-f9c108e92589")
-		)
-		(instances
-			(project ""
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 127 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6cdd0df-27f5-4434-829c-37b9a22c8d6b")
-		(property "Reference" "D14"
-			(at 124.46 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 131.318 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 127 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 127 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 127 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "b1bc0a1f-51d0-4e55-9bfc-4f916f0d01ba")
 		)
 		(pin "2"
-			(uuid "c0457a99-2ac1-49db-bf6c-a9e9c22de3e0")
-		)
-		(pin "1"
-			(uuid "e942fe08-5b30-4c43-bc69-e2bd9cb0e52b")
+			(uuid "896e0372-6374-49e0-9a7a-1eb4c43867af")
 		)
 		(pin "3"
-			(uuid "a9f09ab3-cf79-4039-85d9-eaf58fbe33dd")
+			(uuid "e5c585ae-d0a3-4998-ada9-af3fa5fb5da9")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D14")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -12598,87 +12476,6 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 95.25 158.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb425dc0-9af1-426b-9a48-59be1ce51c6e")
-		(property "Reference" "D25"
-			(at 97.79 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 90.932 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 95.25 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 95.25 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 95.25 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 95.25 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "317d4271-4a0b-4df0-880b-fec7c0d0cdef")
-		)
-		(pin "1"
-			(uuid "17e48a67-12b5-40d9-a4d1-2c1bd87dd2a5")
-		)
-		(pin "3"
-			(uuid "9b89436b-18b9-4bef-9bf2-8e974c3302cd")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
 		(at 162.56 81.28 270)
@@ -12900,33 +12697,34 @@
 		)
 	)
 	(symbol
-		(lib_name "BAV99_1")
-		(lib_id "000_LOCAL:BAV99")
-		(at 165.1 63.5 0)
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f17150f8-dddf-46bf-9b75-0f7ad290e7a4")
-		(property "Reference" "D18"
-			(at 162.56 60.452 0)
+		(uuid "f1ebd611-abfa-4b58-885c-8f1a66cc1c6b")
+		(property "Reference" "D11"
+			(at 122.936 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BAV99"
-			(at 169.418 60.452 0)
+		(property "Value" "BAS70-04"
+			(at 128.27 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 76.2 0)
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12934,8 +12732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheets/BAV99.pdf"
-			(at 165.1 63.5 0)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,37 +12741,100 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Array 1 Pair Series Connection"
-			(at 165.1 63.5 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "Nexperia BAV99,215"
-			(at 165.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8f117df-6ce1-42cf-b769-2c9afd1c5172")
 		)
 		(pin "1"
-			(uuid "bef98682-b6be-436b-855e-f2e06058a3e2")
+			(uuid "449599b0-f4ce-42dd-8c34-00ab2a813e0d")
+		)
+		(pin "2"
+			(uuid "357eff10-91b1-49f9-9e47-27f0a710ef08")
 		)
 		(pin "3"
-			(uuid "1a170ca9-40d3-47d4-9033-da4c485ddb4f")
+			(uuid "46a82b08-9f99-4053-9a04-631fd1c0adcc")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D18")
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd71c994-34ba-4ad9-bf45-db8fca4ee013")
+		(property "Reference" "D20"
+			(at 161.036 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 166.37 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b65a78c-cbf7-4325-8ce1-d5c3fe371e32")
+		)
+		(pin "2"
+			(uuid "47158eef-f99c-40f6-a5ef-aac2de8a2e30")
+		)
+		(pin "3"
+			(uuid "2c82651a-1faa-4335-b5da-416fb337768f")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D20")
 					(unit 1)
 				)
 			)
