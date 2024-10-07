@@ -10184,7 +10184,8 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:Conn_01x02_Pin")
-		(at 144.78 172.72 180)
+		(at 144.78 170.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10192,7 +10193,7 @@
 		(dnp no)
 		(uuid "a780d1a9-5e4b-4f61-9c74-eb5f2236cee2")
 		(property "Reference" "J4"
-			(at 144.78 164.592 0)
+			(at 144.78 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10201,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 144.78 166.878 0)
+			(at 144.78 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +10209,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 144.78 172.72 0)
+			(at 144.78 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 172.72 0)
+			(at 144.78 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10227,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER R/A 2POS 2.54MM"
-			(at 144.78 172.72 0)
+			(at 144.78 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,7 +10236,7 @@
 			)
 		)
 		(property "MPN" "PH1RB-02-UA"
-			(at 144.78 172.72 0)
+			(at 144.78 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,8 +11462,7 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:Conn_01x02_Pin")
-		(at 121.92 172.72 0)
-		(mirror x)
+		(at 121.92 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11470,7 +11470,7 @@
 		(dnp no)
 		(uuid "c95e8f89-98d6-41ce-b33e-a0a09bc5e1a7")
 		(property "Reference" "J3"
-			(at 121.92 164.592 0)
+			(at 121.92 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11478,7 +11478,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 121.92 166.878 0)
+			(at 121.92 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11486,7 +11486,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 121.92 172.72 0)
+			(at 121.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11495,7 +11495,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 172.72 0)
+			(at 121.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,7 +11504,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER R/A 2POS 2.54MM"
-			(at 121.92 172.72 0)
+			(at 121.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,7 +11513,7 @@
 			)
 		)
 		(property "MPN" "PH1RB-02-UA"
-			(at 121.92 172.72 0)
+			(at 121.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
