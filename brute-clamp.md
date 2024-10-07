@@ -3,7 +3,6 @@
 Re-drawn version of the Jason Yang PCB from [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer)
 
 ![](PCB/out/PEEKO-Brute.jpg)
-![](HOUSING/out/PEEKO-Brute_housing.png)
 ![](PCB/out/PEEKO-Brute.top.jpg)
 ![](PCB/out/PEEKO-Brute.bottom.jpg)
 ![](PCB/out/PEEKO-Brute.svg)
@@ -11,13 +10,15 @@ Re-drawn version of the Jason Yang PCB from [gusmanb/logicanalyzer](https://gith
 # BOM
 [PEEKO-Brute DigiKey cart](https://www.digikey.com/short/7wdbdp9q)  ([PEEKO-Brute.DigiKey.bom.csv](PEEKO-Brute.DigiKey.bom.csv))
 
+The housing is the regular peeko housing.
+
 # Description
 
 This is a re-drawn version of the Jason Yang board, which does level-shifting via diode-clamping.
 
 This is pretty brute-force and pretty abusive to both the circuit under test and the pico, but can also handle voltages much lower than 0v and much higher than 5v.
 
-Changes:  
+Changes vs the original:  
 * simpler cleaner traces  
 * schottky diodes
 * 2-layer PCB  

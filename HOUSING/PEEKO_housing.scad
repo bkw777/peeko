@@ -2,6 +2,7 @@
  * Housing for PEEKO
  */
 
+// The brute board fits in the standard pico housing now.
 model = "peeko";
 //model = "brute";
 
@@ -18,9 +19,7 @@ pcb_stl =
             "inc/PEEKO.stl";
 
 pcb_w = 2050*mil;   // X
-pcb_d =             // Y
-  (brute) ? 1800*mil:
-            1700*mil;
+pcb_d = 1700*mil;   // Y
 pcb_h = 1.6;        // Z
 pcb_r = 100*mil;    // corner radius
 
@@ -85,14 +84,14 @@ module body () {
         uy = 470*mil; // pcb edge to usb center
         translate([-pcb_w/2,pcb_d/2-uy,pcb_h+2.4]) rounded_cube(w=uw,d=ud,h=uh,rh=2,rv=2,t=0);
 
-        if (peeko) {
-
         // chain
         cx = 650*mil; // pcb edge to pin header center
         x = fc+wt+cr+e;
         pz = eh/2+pcb_h-cr;
         translate([0,-pcb_d/2+cx,pz])
           rounded_cube(d=cr+200*mil+cr,w=x+pcb_w+x,h=eh,rh=cr,rv=cr,t=0);
+
+        if (peeko) {
 
         // vref
         vx = 350*mil; // pcb edge to pin center

@@ -3245,6 +3245,12 @@
 		(uuid "9bf2c3f6-0923-479b-ae6e-f1ec8212c1da")
 	)
 	(junction
+		(at 33.02 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7062bbb-0502-4ecc-bd24-6076e4ec2e7f")
+	)
+	(junction
 		(at 215.9 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3297,6 +3303,16 @@
 	(no_connect
 		(at 238.76 124.46)
 		(uuid "da79270f-bf6a-49ff-a7da-798c59af64c1")
+	)
+	(wire
+		(pts
+			(xy 33.02 110.49) (xy 33.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105a0452-4190-4b43-acaf-dfba85f36de4")
 	)
 	(wire
 		(pts
@@ -5415,7 +5431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PEEKO-Brute Housing"
+		(property "Value" "PEEKO Housing"
 			(at 54.61 185.7374 0)
 			(effects
 				(font
@@ -5424,7 +5440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "000_LOCAL:PEEKO-Brute_housing"
+		(property "Footprint" "000_LOCAL:PEEKO_housing"
 			(at 52.07 182.88 0)
 			(effects
 				(font
