@@ -5790,6 +5790,17 @@
 		)
 		(uuid "c0cefb8b-3be1-4410-aa72-def91cefb391")
 	)
+	(label "CHAIN"
+		(at 102.87 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c217db5d-2eb3-4145-8626-27e42c92d2b2")
+	)
 	(label "_CH0"
 		(at 105.41 48.26 0)
 		(fields_autoplaced yes)
