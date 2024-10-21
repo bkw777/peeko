@@ -8,7 +8,7 @@ model = "peeko";
 
 mil = 0.0254;
 //mw = 0.8; // minimum allowed wall thickness
-fc = 0.2;   // fitment clearance
+fc = 0.1;   // fitment clearance 0.2 for FDM, 0.1 for SLS
 e = 0.1;    // epsilon (overlap/overcut)
 peeko = (model=="peeko")?true:false;
 brute = (model=="brute")?true:false;
