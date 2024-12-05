@@ -2,6 +2,11 @@
 
 Alternate PCB for [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer)
 
+![](0.jpg)
+![](1.jpg)
+![](2.jpg)
+![](3.jpg)
+![](4.jpg)
 ![](PCB/out/PEEKO.jpg)
 ![](PCB/out/PEEKO.side.jpg)
 ![](HOUSING/out/PEEKO_housing.png)
