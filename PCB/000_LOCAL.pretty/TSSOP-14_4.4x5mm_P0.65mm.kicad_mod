@@ -6,7 +6,7 @@
 	(descr "TSSOP, 14 Pin (JEDEC MO-153 Var AB-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "TSSOP SO")
 	(property "Reference" "REF**"
-		(at -1.27 -2.286 -90)
+		(at -1.3 -1.15 -90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b62a548c-eaf8-4782-92aa-0064156249c4")
@@ -129,6 +129,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "3a05fef9-9b7b-4612-b785-f030dff30fcd")
+	)
+	(fp_circle
+		(center -1.3 -1.697557)
+		(end -1 -1.697557)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "6e3bb64e-b44f-4759-ab18-690ada906cb2")
 	)
 	(fp_poly
 		(pts

@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -1.27 -19.05 -90)
+		(at -1.05 -18.75 -90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "970c3d5f-ec4f-4f39-bd9d-14745a46cf7e")
@@ -68,25 +68,17 @@
 			)
 		)
 	)
-	(fp_line
-		(start -4.191 -18.669)
-		(end -4.191 -17.145)
-		(stroke
-			(width 0.15)
-			(type default)
+	(fp_poly
+		(pts
+			(xy -2.8 -18.85) (xy -1.784 -19.866) (xy -3.816 -19.866)
 		)
-		(layer "F.SilkS")
-		(uuid "59342760-c67e-42c1-b719-64355fd83907")
-	)
-	(fp_line
-		(start -0.635 -18.669)
-		(end -4.191 -18.669)
 		(stroke
-			(width 0.15)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "d57d60ea-d569-4dc0-ab3f-3b7aecc6411c")
+		(uuid "3ae95a6a-1064-448a-a2b1-1423a8445783")
 	)
 	(fp_line
 		(start 2.667 -2.54)

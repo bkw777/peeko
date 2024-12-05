@@ -23,12 +23,14 @@ pcb_d = 1700*mil;   // Y
 pcb_h = 1.6;        // Z
 pcb_r = 100*mil;    // corner radius
 
+// 2.8 exactly protects Pico soldered directly to PCB
 components_h = 2.8;
+
 retainer_radius = 0.8;
 ledge_width = 0.5; // ledge width
 wt = 1;          // wall thickness
 cr = 0.5;        // corner/fillet radius
-er = fc+wt;
+er = fc+wt;      // external radius
 
 // z=0 is the bottom surface of the pcb
 above_ih = pcb_h + components_h;
@@ -60,29 +62,37 @@ module body () {
 
       // add
       // exterior
-      translate([0,0,eh/2-below_eh]) rounded_cube(w=ew,d=ed,h=eh,rh=pcb_r+er,rv=er,t=0);
+      translate([0,0,eh/2-below_eh])
+       rounded_cube(w=ew,d=ed,h=eh,rh=pcb_r+er,rv=er,t=0);
 
       // cut
       union () {
-        // pcb cavity
-        translate([0,0,eh/2-fc]) rounded_cube(w=fc+pcb_w+fc,d=fc+pcb_d+fc,h=eh,rh=pcb_r+fc,rv=fc,t=0);
+        // pcb cavity (pcb length & width + fitment_clearance)
+        translate([0,0,eh/2-fc])
+         rounded_cube(w=fc+pcb_w+fc,d=fc+pcb_d+fc,h=eh,rh=pcb_r+fc,rv=fc,t=0);
 
-        // bottom cavity
-        translate([0,0,ih/2-below_eh+wt]) rounded_cube(w=pcb_w-lw*2,d=pcb_d-lw*2,h=ih,rh=pcb_r-lw,rv=er-wt,t=0);
+        // bottom cavity (pcb length & width - ledge_width)
+        // d is reduced and offset so that the wall behind the IDC
+        // connector is wall-thickness thick after cutting away the pocket
+        translate([0,wt-fc-fc/2-lw,ih/2-below_eh+wt])
+         rounded_cube(w=pcb_w-lw*2,d=pcb_d-lw-wt-fc,h=ih,rh=pcb_r-lw,rv=er-wt,t=0);
 
         // idc
         _w = cr+45.628+cr;
         _d = 12;
-        _h = cr+9.2+1+cr;;
-        translate([0,-pcb_d/2-_d/2,pcb_h/2]) rounded_cube(w=_w,d=_d,h=_h,rh=cr,rv=cr,t=0);
-        translate([0,-pcb_d/2-_d/2+lw+cr+1,pcb_h/2]) rounded_cube(w=1450*mil,d=_d,h=150*mil,rh=cr,rv=cr,t=0);
+        _h = cr+9.2+1+cr;
+        translate([0,-pcb_d/2-_d/2+fc,pcb_h/2])
+         rounded_cube(w=_w,d=_d,h=_h,rh=cr,rv=cr,t=0);
+        translate([0,-pcb_d/2-_d/2+lw+cr+1,pcb_h/2])
+         rounded_cube(w=1450*mil,d=_d,h=150*mil,rh=cr,rv=cr,t=0);
 
         // usb
         uw = cr+8+cr;
         ud = 14;
         uh = 8;
         uy = 470*mil; // pcb edge to usb center
-        translate([-pcb_w/2,pcb_d/2-uy,pcb_h+2.4]) rounded_cube(w=uw,d=ud,h=uh,rh=2,rv=2,t=0);
+        translate([-pcb_w/2,pcb_d/2-uy,pcb_h+2.4])
+         rounded_cube(w=uw,d=ud,h=uh,rh=2,rv=2,t=0);
 
         // chain
         cx = 650*mil; // pcb edge to pin header center

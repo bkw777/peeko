@@ -495,7 +495,7 @@
       "plot": "GERBER_${TITLE}_${REVISION}",
       "pos_files": "GERBER_${TITLE}_${REVISION}",
       "specctra_dsn": "",
-      "step": "../HOUSING/inc/peeko+.step",
+      "step": "../HOUSING/inc/PEEKO.step",
       "svg": "",
       "vrml": ""
     },
