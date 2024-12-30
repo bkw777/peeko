@@ -4763,15 +4763,15 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 165.1 63.5 0)
+		(at 127 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0233d44b-99ac-4864-8776-41ec2db1b4f9")
-		(property "Reference" "D18"
-			(at 161.036 60.452 0)
+		(uuid "02287cda-be05-4f1a-82d8-cf60a7ed5e16")
+		(property "Reference" "D11"
+			(at 122.936 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4780,7 @@
 			)
 		)
 		(property "Value" "BAS70-04"
-			(at 166.37 60.452 0)
+			(at 128.27 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +4789,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 63.5 0)
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +4798,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 165.1 63.5 0)
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +4807,16 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 165.1 63.5 0)
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,18 +4825,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "8dcbd965-f9d8-420a-b1b2-7cd0f6d5bad0")
+			(uuid "ae3057ca-6443-4fcb-9342-562b48c461e2")
 		)
 		(pin "2"
-			(uuid "86ab0473-5540-4ee9-81aa-4411b1946916")
+			(uuid "b82f1aaa-5767-4ad1-ab11-a386de7d0bae")
 		)
 		(pin "3"
-			(uuid "6e2a5045-4e5d-4769-a763-ebf2b6ef34cd")
+			(uuid "e5031090-5c2a-4d1c-ae1d-09f33e956737")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D18")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4977,78 +4986,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 165.1 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "085f100d-10dd-46fa-81e8-282361757f91")
-		(property "Reference" "D21"
-			(at 161.036 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 166.37 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "210f4962-15ed-4c6f-b9b7-ece38c85c93d")
-		)
-		(pin "2"
-			(uuid "f2390c99-3de4-4d9b-8adc-02e0fd674e55")
-		)
-		(pin "3"
-			(uuid "839da85a-4697-44da-bf05-f693465d5658")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
 		(at 86.36 93.98 270)
@@ -5127,15 +5064,15 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 88.9 76.2 0)
+		(at 165.1 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0ce2f1ae-0078-4905-aba9-c2ca82c9b1e0")
-		(property "Reference" "D3"
-			(at 84.836 73.152 0)
+		(uuid "0bcf453c-c333-4b27-bcae-f4f0d2b1d6a8")
+		(property "Reference" "D19"
+			(at 161.036 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5081,7 @@
 			)
 		)
 		(property "Value" "BAS70-04"
-			(at 90.17 73.152 0)
+			(at 166.37 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5090,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 76.2 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5099,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 88.9 76.2 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5108,16 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 88.9 76.2 0)
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,18 +5126,99 @@
 			)
 		)
 		(pin "1"
-			(uuid "e230db97-fd46-496a-a181-f45423811a6d")
+			(uuid "834948fb-5393-4043-b4b1-cca438ca49af")
 		)
 		(pin "2"
-			(uuid "c1d61656-403e-449c-aba4-29a5fdef1aed")
+			(uuid "a1c72ab7-6a84-4507-a0cb-1019d86e1682")
 		)
 		(pin "3"
-			(uuid "fee3d293-75ea-4c19-a82a-de8f8017904e")
+			(uuid "3c9167f3-f5d9-42ed-9e24-1452be285203")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D3")
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c666844-e1e6-4805-8634-0d10902de88b")
+		(property "Reference" "D5"
+			(at 84.836 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 90.17 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34b04585-82d5-4ca7-ba15-68314e459e4e")
+		)
+		(pin "2"
+			(uuid "24a1c66d-8b2c-423a-a39e-7c57bd733a93")
+		)
+		(pin "3"
+			(uuid "48977540-6f83-45bf-9dd4-7acb8dc92eb8")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5275,78 +5302,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 88.9 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0df9fa64-6fbd-41ef-a5b0-2720aeea6671")
-		(property "Reference" "D8"
-			(at 84.836 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 90.17 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 88.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 88.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48c189d5-297b-49fa-ab1f-e1ee6d62fb2c")
-		)
-		(pin "2"
-			(uuid "799e38ce-e98b-4a32-a016-15acfd026b3c")
-		)
-		(pin "3"
-			(uuid "97cc4d66-be59-42aa-b975-bee133794cb5")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 45.72 113.03 270)
 		(unit 1)
@@ -5407,6 +5362,87 @@
 			(project "peeko_b"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f4ccc6c-1359-4c19-9c66-1cc0cdf24d28")
+		(property "Reference" "D3"
+			(at 84.836 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 90.17 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2547655-f876-4c0d-a477-ab4c72fa13b8")
+		)
+		(pin "2"
+			(uuid "b42469a1-4042-42c5-9de9-feba161fc95d")
+		)
+		(pin "3"
+			(uuid "65703752-22a9-46e7-81f7-36b3f29433fd")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5664,6 +5700,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BAS70-04"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f713305-690c-48ac-b586-ea9a94dd4b16")
 		)
@@ -5743,78 +5788,6 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 165.1 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22d165c2-ce8b-4a30-a02a-ada0c06adfdf")
-		(property "Reference" "D23"
-			(at 161.036 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 166.37 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e968d5c-0490-40f8-b115-21462e1fb66d")
-		)
-		(pin "2"
-			(uuid "3a56cc70-3531-4397-b85e-04003dbce1ee")
-		)
-		(pin "3"
-			(uuid "887dc714-c481-415e-b95c-560a8d6b5415")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -6025,78 +5998,6 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 127 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f2e1f70-9e1b-40e4-be95-9bbc58d9f411")
-		(property "Reference" "D10"
-			(at 122.936 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 128.27 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cf83df6-9dce-4b18-be3c-2e624e823a1b")
-		)
-		(pin "2"
-			(uuid "2ba7b2cb-bf72-43e5-a248-0d530d6db21e")
-		)
-		(pin "3"
-			(uuid "8df5a5ee-6826-4397-b942-12916a9c8f09")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6369,79 +6270,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 95.25 158.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36a89e47-0b18-4c0e-b0ea-94e3e3aa2a46")
-		(property "Reference" "D25"
-			(at 99.314 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 93.98 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 95.25 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 95.25 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 95.25 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51466882-430c-4f68-8496-19fa3f56138c")
-		)
-		(pin "2"
-			(uuid "6b30cc1e-d9a6-474e-a77e-b9bf6614eb60")
-		)
-		(pin "3"
-			(uuid "cf9fa1d3-cdc9-4d5b-833b-63742759d726")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 259.08 71.12 270)
 		(unit 1)
@@ -6502,6 +6330,87 @@
 			(project ""
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3885b806-769c-420e-9440-df99373165c6")
+		(property "Reference" "D6"
+			(at 84.836 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 90.17 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "654f50c9-a7ab-4324-941f-7c188c72d980")
+		)
+		(pin "2"
+			(uuid "8eea58c2-e9f7-481a-851d-1eb5938a64e5")
+		)
+		(pin "3"
+			(uuid "0f0f6aee-3da5-485d-841b-60f1c04f0d40")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6569,6 +6478,87 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39818821-ab99-451e-8c1d-b71e8503b56b")
+		(property "Reference" "D18"
+			(at 161.036 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 166.37 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90e02626-5496-4caa-aad6-740a3cdb05c3")
+		)
+		(pin "2"
+			(uuid "b385b15e-3d87-4c82-882f-138a9114db53")
+		)
+		(pin "3"
+			(uuid "10a92c2d-5179-4ca4-9cc2-080f166d765c")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -6729,6 +6719,87 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ba2afd3-5c58-4e14-9ee9-0c0108af7f1a")
+		(property "Reference" "D16"
+			(at 122.936 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 128.27 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "840235a8-47d3-4c35-88d7-a035dfdf9a8a")
+		)
+		(pin "2"
+			(uuid "1b455072-df49-4da0-9d6c-be0e239b16bf")
+		)
+		(pin "3"
+			(uuid "9bded224-cc83-474f-8cf5-912f905025e3")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 50.8 270)
 		(unit 1)
@@ -6857,6 +6928,87 @@
 			(project "peeko_b"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ee7b7d0-9c4f-4d5e-9b63-096c342b5fae")
+		(property "Reference" "D14"
+			(at 122.936 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 128.27 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3ef7ab9-873f-4277-833d-e961fca3e625")
+		)
+		(pin "2"
+			(uuid "ceb82bfe-6a2f-4d62-94f5-60e55088fa5d")
+		)
+		(pin "3"
+			(uuid "ebc54c85-ea52-4d1b-95f1-db0e3619a90f")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -7006,78 +7158,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 127 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42d7a49e-c542-468e-8638-fbf44a840e3c")
-		(property "Reference" "D9"
-			(at 122.936 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 128.27 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "515686b6-c8a7-4ffd-bcf0-fc73bf5267a8")
-		)
-		(pin "2"
-			(uuid "eeb4073a-2aaf-4fcc-986b-9d22250d0318")
-		)
-		(pin "3"
-			(uuid "51ba9a15-57c5-4095-876a-ed53cee51dca")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 76.2 270)
 		(unit 1)
@@ -7216,6 +7296,87 @@
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4928248e-814a-4a87-8f3f-18fbf39ad288")
+		(property "Reference" "D12"
+			(at 122.936 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 128.27 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "227346d1-c02b-460f-a038-5ae2407aec41")
+		)
+		(pin "2"
+			(uuid "c92b71cf-82a2-41d6-b72a-b03c22761934")
+		)
+		(pin "3"
+			(uuid "bb16b808-64aa-41f3-a768-a3e307847464")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -7709,15 +7870,15 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 127 114.3 0)
+		(at 88.9 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5ce8ed72-99ed-4321-96f9-26a4405bc279")
-		(property "Reference" "D14"
-			(at 122.936 111.252 0)
+		(uuid "5bb67fb0-c6c0-40a1-a4d4-03a71a31a991")
+		(property "Reference" "D8"
+			(at 84.836 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,7 +7887,7 @@
 			)
 		)
 		(property "Value" "BAS70-04"
-			(at 128.27 111.252 0)
+			(at 90.17 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,7 +7896,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 114.3 0)
+			(at 88.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,7 +7905,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 127 114.3 0)
+			(at 88.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +7914,16 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 127 114.3 0)
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 88.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,18 +7932,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd6aebaf-7039-46ed-a87f-87e6f9c356da")
+			(uuid "de017a88-c7a8-4a20-8635-c2631c00bd8c")
 		)
 		(pin "2"
-			(uuid "5393edee-cd8d-4262-8920-86e74a030958")
+			(uuid "e4e8fb4d-55cd-411c-abcb-cb7265bb220c")
 		)
 		(pin "3"
-			(uuid "ca904fcc-9c6c-4aea-9fcc-755912b01bbb")
+			(uuid "eb01e772-9ac4-413c-ba8d-46cca7bbc007")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D14")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8640,6 +8810,87 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7aaef24e-1db7-42c5-8d4f-e3743ee1e0c8")
+		(property "Reference" "D13"
+			(at 122.936 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 128.27 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a018b5f-33ad-448c-b7f9-a2cabde0f0af")
+		)
+		(pin "2"
+			(uuid "ea83a0a2-040c-4e88-ac10-0a4a565b9107")
+		)
+		(pin "3"
+			(uuid "31fe01be-c693-4090-a682-2205802284ee")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
 		(at 86.36 55.88 270)
@@ -8843,78 +9094,6 @@
 			(project ""
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 88.9 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "823c309a-dc9a-4ccd-816a-de11256bf6d0")
-		(property "Reference" "D6"
-			(at 84.836 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 90.17 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c5fa057-0e70-4c37-ac6d-b1aa18c611c6")
-		)
-		(pin "2"
-			(uuid "9990fa90-e206-418f-af42-28407caa2406")
-		)
-		(pin "3"
-			(uuid "d23e7528-a8ae-4374-8ded-db3331016b36")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9181,78 +9360,6 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 88.9 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8bd7d0ad-5d06-4c0f-825e-851d8dc1fd5c")
-		(property "Reference" "D4"
-			(at 84.836 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 90.17 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03fdf03b-ceef-4847-9a1f-d66a3ba0bdd0")
-		)
-		(pin "2"
-			(uuid "d9294279-90fa-4488-aadf-47d5170c43d9")
-		)
-		(pin "3"
-			(uuid "031768e6-2502-4dc0-86b7-db2c320a4865")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9547,15 +9654,15 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 88.9 127 0)
+		(at 127 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "94f65a10-0656-4a97-bb06-b841d86ab2ed")
-		(property "Reference" "D7"
-			(at 84.836 123.952 0)
+		(uuid "969926b0-35af-445c-bfcc-6b878655b726")
+		(property "Reference" "D15"
+			(at 122.936 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9564,7 +9671,7 @@
 			)
 		)
 		(property "Value" "BAS70-04"
-			(at 90.17 123.952 0)
+			(at 128.27 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9573,7 +9680,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 127 0)
+			(at 127 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9582,7 +9689,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 88.9 127 0)
+			(at 127 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,7 +9698,16 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 88.9 127 0)
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 127 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,18 +9716,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "7934cf8e-8129-4235-9bc4-be276805739e")
+			(uuid "cdf3b47e-bd60-47eb-a793-7fdb08fed19c")
 		)
 		(pin "2"
-			(uuid "716d22fa-da63-4912-a9b0-d7166e020f27")
+			(uuid "342a938c-9bd5-4f26-89a2-5fc23bb4f9fd")
 		)
 		(pin "3"
-			(uuid "7feea5c6-c607-4089-ad21-290e869bdef1")
+			(uuid "ecafbdca-b658-43fe-ae44-b1fc320b8d76")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D7")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -9763,15 +9879,15 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 165.1 139.7 0)
+		(at 165.1 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c9a221a-a7b3-4375-8c54-63a226cfba62")
-		(property "Reference" "D24"
-			(at 161.036 136.652 0)
+		(uuid "9c23ed96-b42c-4c57-b26a-b648de71cd97")
+		(property "Reference" "D20"
+			(at 161.036 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +9896,7 @@
 			)
 		)
 		(property "Value" "BAS70-04"
-			(at 166.37 136.652 0)
+			(at 166.37 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +9905,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 139.7 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +9914,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 165.1 139.7 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +9923,16 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 165.1 139.7 0)
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,18 +9941,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d6d3016-27cc-4fb0-a664-1c81a32173be")
+			(uuid "8961e690-b555-414b-bb89-10ab60e838e1")
 		)
 		(pin "2"
-			(uuid "70c08335-75f4-42e9-8c46-00fd7ce4f481")
+			(uuid "586dd3bf-3659-479b-ad5e-e4a75a35a352")
 		)
 		(pin "3"
-			(uuid "523546f2-5eae-4ffb-9803-c7707991b9a9")
+			(uuid "d2217331-4424-454a-9f06-3eaef22ccc91")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D24")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -9901,78 +10026,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 127 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1d1e1d2-f3d2-4c5a-a027-282c4ffaf873")
-		(property "Reference" "D16"
-			(at 122.936 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 128.27 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 127 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 127 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f68b853-b2f7-4b7d-9535-f47e872c8696")
-		)
-		(pin "2"
-			(uuid "385d4e4a-52d5-4a8f-ba25-a328a840de7a")
-		)
-		(pin "3"
-			(uuid "02b0586e-ee19-4a0c-9428-2374bd1ea05d")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 172.72 101.6 270)
 		(unit 1)
@@ -10033,150 +10086,6 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 165.1 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6a304d5-2044-4d5c-ab9b-1afcf9404873")
-		(property "Reference" "D17"
-			(at 161.036 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 166.37 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 165.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 165.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "693f879b-83b4-42a1-a652-b8e7470a12bb")
-		)
-		(pin "2"
-			(uuid "640c979d-83d7-4645-a8a0-6dd8fdc034d7")
-		)
-		(pin "3"
-			(uuid "d6861da9-1f89-4d72-a024-c1bc512f76dd")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 127 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7140122-c1fc-4a28-8fea-858889898e22")
-		(property "Reference" "D13"
-			(at 122.936 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 128.27 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3406bf7-b79b-49a2-9492-66e8d48db9bd")
-		)
-		(pin "2"
-			(uuid "2ddd4d50-d2c9-4463-a342-d86542dfa705")
-		)
-		(pin "3"
-			(uuid "70aad7a4-ca2b-45eb-9bd2-8ff5a77af3ac")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -10393,6 +10302,87 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9faea88-6a0d-409e-9ad2-c50495e6da3f")
+		(property "Reference" "D4"
+			(at 84.836 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 90.17 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82a30e35-5522-4d5d-8273-035de75d55ba")
+		)
+		(pin "2"
+			(uuid "e120610e-0921-498f-9768-aa3242abc179")
+		)
+		(pin "3"
+			(uuid "6d8562f2-5c82-4243-aa2b-704b721f68e2")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 134.62 127 270)
 		(unit 1)
@@ -10536,78 +10526,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 127 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae096535-b139-46e6-a020-401cc505f465")
-		(property "Reference" "D15"
-			(at 122.936 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 128.27 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed7d3878-4f97-48fb-be52-d19cf0876a44")
-		)
-		(pin "2"
-			(uuid "36be94e9-1f52-4837-898e-5b9ffd6ed110")
-		)
-		(pin "3"
-			(uuid "91af34d9-e976-42e5-a7cd-5869f9281f9b")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 157.48 101.6 270)
 		(unit 1)
@@ -10669,78 +10587,6 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 165.1 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4780673-501a-45fc-93a3-d5913b9abaea")
-		(property "Reference" "D19"
-			(at 161.036 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 166.37 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "203c1009-22df-4645-81f5-842a6ff188c3")
-		)
-		(pin "2"
-			(uuid "e878d662-9c8b-4190-8ed3-0bf71f151def")
-		)
-		(pin "3"
-			(uuid "741e9bdf-bdf5-4fe5-89f3-cd93a756872b")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -11041,78 +10887,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 88.9 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba41d9e7-9220-4caf-bb12-5b42e1b50455")
-		(property "Reference" "D5"
-			(at 84.836 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS70-04"
-			(at 90.17 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59278d6c-232b-4e6a-b661-3f5a195a9ba5")
-		)
-		(pin "2"
-			(uuid "f488cb5e-7f1a-4425-aa34-79678ae4c469")
-		)
-		(pin "3"
-			(uuid "7073f15c-ffb2-47d8-9e7d-4e1e2b847a0d")
-		)
-		(instances
-			(project "PEEKO-Brute"
-				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 95.25 168.91 180)
 		(unit 1)
@@ -11256,6 +11030,87 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bad0ed0e-827f-4f52-ad6b-57e8074d6808")
+		(property "Reference" "D22"
+			(at 161.036 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 166.37 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f95ba13-8769-444d-89ed-367449e46861")
+		)
+		(pin "2"
+			(uuid "064e88ee-d3b5-4dfd-ab6e-d8bb3e4e1cc2")
+		)
+		(pin "3"
+			(uuid "7150b946-2267-4e9d-bdb9-58665aedeb0a")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 172.72 114.3 270)
 		(unit 1)
@@ -11323,15 +11178,15 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 88.9 63.5 0)
+		(at 165.1 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c208732c-d203-45af-9ec2-4ec43d0fc4f4")
-		(property "Reference" "D2"
-			(at 84.836 60.452 0)
+		(uuid "c4b5cbe7-50bc-4c9b-833b-b0dce8932fd1")
+		(property "Reference" "D23"
+			(at 161.036 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,7 +11195,7 @@
 			)
 		)
 		(property "Value" "BAS70-04"
-			(at 90.17 60.452 0)
+			(at 166.37 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11349,7 +11204,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 88.9 63.5 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11358,7 +11213,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 88.9 63.5 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11367,7 +11222,16 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 88.9 63.5 0)
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,18 +11240,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe066503-7793-4458-978f-5d16af92f315")
+			(uuid "8b2ef925-9c4f-4d12-a2ff-2e076dd06448")
 		)
 		(pin "2"
-			(uuid "423b95b2-3aae-4bdf-8306-b0e0c3694b07")
+			(uuid "f95cc23c-435e-45e8-992d-f1b48a58b5f9")
 		)
 		(pin "3"
-			(uuid "96eb253a-f008-49bf-aeff-0b78c93b57b3")
+			(uuid "3ef61f8a-c8a3-4b99-aa87-1447021f76f7")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D2")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -11455,6 +11319,87 @@
 			(project "peeko_jy"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8114745-b182-4963-a594-73c9e2394374")
+		(property "Reference" "D17"
+			(at 161.036 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 166.37 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48c7c718-1db6-44f3-a3aa-53efe0d4cb30")
+		)
+		(pin "2"
+			(uuid "a3380ff0-9d7e-4374-b0d0-668d6e894470")
+		)
+		(pin "3"
+			(uuid "2930e8f0-3920-44a4-a9a2-ec932ef895e3")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -11683,15 +11628,15 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 127 88.9 0)
+		(at 95.25 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cf173450-57b1-498b-82cf-2abd0002f344")
-		(property "Reference" "D12"
-			(at 122.936 85.852 0)
+		(uuid "cde06eed-692d-4e00-af98-449a5fb52b65")
+		(property "Reference" "D25"
+			(at 91.186 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11700,7 +11645,7 @@
 			)
 		)
 		(property "Value" "BAS70-04"
-			(at 128.27 85.852 0)
+			(at 96.52 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11709,7 +11654,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 88.9 0)
+			(at 95.25 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11718,7 +11663,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 127 88.9 0)
+			(at 95.25 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +11672,16 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 127 88.9 0)
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 95.25 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11736,18 +11690,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "a85228ce-077c-4708-8551-1d29e3a636ac")
+			(uuid "a99b93c8-b1ee-4c6d-b1e3-65b902913437")
 		)
 		(pin "2"
-			(uuid "1db5e613-32c9-4d0e-8468-b05ff03ecce1")
+			(uuid "e1c87e0d-33cc-4392-9a32-11cf7f9a44f1")
 		)
 		(pin "3"
-			(uuid "ad1bb489-a825-4986-bc32-8315a1cc377a")
+			(uuid "47f900b9-55c5-4d64-a6f8-81bc7c04642a")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D12")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -11954,15 +11908,15 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 165.1 114.3 0)
+		(at 127 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d634c209-a4a7-4a73-9f65-eedea49fc9ae")
-		(property "Reference" "D22"
-			(at 161.036 111.252 0)
+		(uuid "d8aa9d16-d97a-44bc-b26f-fa5ab67ffdc2")
+		(property "Reference" "D9"
+			(at 122.936 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11971,7 +11925,7 @@
 			)
 		)
 		(property "Value" "BAS70-04"
-			(at 166.37 111.252 0)
+			(at 128.27 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11980,7 +11934,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 114.3 0)
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,7 +11943,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 165.1 114.3 0)
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,7 +11952,16 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 165.1 114.3 0)
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12007,18 +11970,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1bc0a1f-51d0-4e55-9bfc-4f916f0d01ba")
+			(uuid "cebf2bf7-a64b-47a3-b506-5e65b8f17ae5")
 		)
 		(pin "2"
-			(uuid "896e0372-6374-49e0-9a7a-1eb4c43867af")
+			(uuid "2b8da443-8bd8-48e5-a8d2-2ea07ee5534c")
 		)
 		(pin "3"
-			(uuid "e5c585ae-d0a3-4998-ada9-af3fa5fb5da9")
+			(uuid "ee017b61-6671-44e1-9740-cc85dc1a40f0")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D22")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -12492,6 +12455,87 @@
 		)
 	)
 	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 127 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb359292-a3b4-451e-96a0-c5e72a260268")
+		(property "Reference" "D10"
+			(at 122.936 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 128.27 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab0f5d6d-9338-403d-9f69-d41cf307cade")
+		)
+		(pin "2"
+			(uuid "af588df8-151b-473d-8df3-8c52735d2cf0")
+		)
+		(pin "3"
+			(uuid "b823c869-e5b9-4c24-b881-8f44081acba4")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "000_LOCAL:R_Small")
 		(at 162.56 81.28 270)
@@ -12714,15 +12758,15 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 127 76.2 0)
+		(at 165.1 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f1ebd611-abfa-4b58-885c-8f1a66cc1c6b")
-		(property "Reference" "D11"
-			(at 122.936 73.152 0)
+		(uuid "f2e2208e-de48-4b76-893f-4a17366eb5b6")
+		(property "Reference" "D21"
+			(at 161.036 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12731,7 +12775,7 @@
 			)
 		)
 		(property "Value" "BAS70-04"
-			(at 128.27 73.152 0)
+			(at 166.37 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12740,7 +12784,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 127 76.2 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12749,7 +12793,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 127 76.2 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12758,7 +12802,16 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 127 76.2 0)
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12767,18 +12820,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "449599b0-f4ce-42dd-8c34-00ab2a813e0d")
+			(uuid "54cf01e8-1428-487d-b368-f0db546b1b6a")
 		)
 		(pin "2"
-			(uuid "357eff10-91b1-49f9-9e47-27f0a710ef08")
+			(uuid "f1f83983-53f4-4a68-b705-c6e4546c3695")
 		)
 		(pin "3"
-			(uuid "46a82b08-9f99-4053-9a04-631fd1c0adcc")
+			(uuid "00935b83-a880-439c-804b-30488ab68541")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D11")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -12786,15 +12839,15 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
-		(at 165.1 88.9 0)
+		(at 88.9 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fd71c994-34ba-4ad9-bf45-db8fca4ee013")
-		(property "Reference" "D20"
-			(at 161.036 85.852 0)
+		(uuid "f7fb88ea-c6c1-4769-a12d-4c66d606e64e")
+		(property "Reference" "D7"
+			(at 84.836 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12803,7 +12856,7 @@
 			)
 		)
 		(property "Value" "BAS70-04"
-			(at 166.37 85.852 0)
+			(at 90.17 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12812,7 +12865,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:SC-59"
-			(at 165.1 88.9 0)
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12821,7 +12874,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
-			(at 165.1 88.9 0)
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12830,7 +12883,16 @@
 			)
 		)
 		(property "Description" "Dual Schottky diode, anode/cathode/center"
-			(at 165.1 88.9 0)
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12839,18 +12901,180 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b65a78c-cbf7-4325-8ce1-d5c3fe371e32")
+			(uuid "64a10295-8817-4870-90ea-1c1ce725c253")
 		)
 		(pin "2"
-			(uuid "47158eef-f99c-40f6-a5ef-aac2de8a2e30")
+			(uuid "78704dcc-1798-46ff-a90d-f84dcc6aa7ea")
 		)
 		(pin "3"
-			(uuid "2c82651a-1faa-4335-b5da-416fb337768f")
+			(uuid "d573b0b4-8eb2-4cc6-8d3a-624bcb173aa4")
 		)
 		(instances
 			(project "PEEKO-Brute"
 				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
-					(reference "D20")
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 88.9 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fabecbbf-6bbf-49bc-9da4-1f8dd67fc76b")
+		(property "Reference" "D2"
+			(at 84.836 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 90.17 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "933dee3a-e89c-470f-91a1-24e25bf1f089")
+		)
+		(pin "2"
+			(uuid "eb4ec6df-2072-43d3-8adb-85b5fdc3a12b")
+		)
+		(pin "3"
+			(uuid "2baf5eb5-bfd4-407b-b995-5579080ad4b0")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_LOCAL:D_Schottky_Dual_Series_AKC")
+		(at 165.1 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fde8cd14-4e31-422e-a43c-f72111974bae")
+		(property "Reference" "D24"
+			(at 161.036 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS70-04"
+			(at 166.37 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_LOCAL:SC-59"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/INFNS30154-1.pdf"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, anode/cathode/center"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAS70-04"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa50bdb7-2af4-4d9f-ae9f-6d1930a6b559")
+		)
+		(pin "2"
+			(uuid "28a54f76-5a5f-4d5b-a9d8-d398302fc7ba")
+		)
+		(pin "3"
+			(uuid "53881bcd-620d-4f16-b833-8a9fc6f2a57c")
+		)
+		(instances
+			(project "PEEKO-Brute"
+				(path "/9dbd0e01-4650-4cf8-82d3-a69ef2ebdc12"
+					(reference "D24")
 					(unit 1)
 				)
 			)

@@ -4221,12 +4221,6 @@
 		(uuid "6ca69dc4-ab72-4057-be11-d2dcc51d9f7d")
 	)
 	(junction
-		(at 95.25 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72d92680-d5d8-4107-9fba-af0bd835219b")
-	)
-	(junction
 		(at 53.34 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4285,6 +4279,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4847189-dca4-476d-b297-ca7125009866")
+	)
+	(junction
+		(at 88.9 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6b6b139-2b5c-45dd-8edb-3b7e2f7146c6")
 	)
 	(junction
 		(at 266.7 101.6)
@@ -4534,16 +4534,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 158.75) (xy 95.25 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f20dcd0-b851-470f-a31b-9afa656fa24b")
-	)
-	(wire
-		(pts
 			(xy 223.52 71.12) (xy 223.52 73.66)
 		)
 		(stroke
@@ -4581,6 +4571,16 @@
 			(type default)
 		)
 		(uuid "52fe82e5-3d7d-4415-b2c0-24a7dd33e555")
+	)
+	(wire
+		(pts
+			(xy 88.9 158.75) (xy 97.79 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53627a7e-e31c-4f54-a30c-63a629b4461c")
 	)
 	(wire
 		(pts
@@ -4641,6 +4641,16 @@
 			(type default)
 		)
 		(uuid "64e253a1-4734-476d-af4b-7132cd4e2ed9")
+	)
+	(wire
+		(pts
+			(xy 88.9 158.75) (xy 88.9 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67171724-7882-48c8-b410-795f09cd5fc8")
 	)
 	(wire
 		(pts
@@ -4774,7 +4784,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 158.75) (xy 133.35 158.75)
+			(xy 105.41 158.75) (xy 133.35 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4914,7 +4924,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 158.75) (xy 95.25 158.75)
+			(xy 31.75 158.75) (xy 88.9 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5219,7 +5229,7 @@
 		(uuid "368d182c-aeda-4d30-bd44-a719de6c3127")
 	)
 	(label "TRIGGER"
-		(at 95.25 158.75 180)
+		(at 97.79 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5791,7 +5801,7 @@
 		(uuid "c0cefb8b-3be1-4410-aa72-def91cefb391")
 	)
 	(label "CHAIN"
-		(at 102.87 158.75 0)
+		(at 105.41 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8488,7 +8498,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 168.91 0)
+		(at 88.9 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8497,7 +8507,7 @@
 		(fields_autoplaced yes)
 		(uuid "78e02406-1fc5-4779-ae7d-3ec147acbf1c")
 		(property "Reference" "#PWR01"
-			(at 95.25 175.26 0)
+			(at 88.9 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,7 +8516,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 173.99 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,7 +8525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 168.91 0)
+			(at 88.9 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,7 +8534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 168.91 0)
+			(at 88.9 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +8543,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 168.91 0)
+			(at 88.9 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,7 +9778,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 165.1 180)
+		(at 88.9 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9776,7 +9786,7 @@
 		(dnp no)
 		(uuid "af0af41e-659e-4e99-9b35-33f9dcf2ed42")
 		(property "Reference" "R1"
-			(at 99.314 163.322 0)
+			(at 92.964 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +9794,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 99.822 165.608 0)
+			(at 93.472 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9802,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:R_0805"
-			(at 97.028 165.1 90)
+			(at 90.678 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9801,7 +9811,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 95.25 165.1 0)
+			(at 88.9 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9810,7 +9820,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/8W 0805"
-			(at 95.25 165.1 0)
+			(at 88.9 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +9829,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-07100KL"
-			(at 95.25 165.1 0)
+			(at 88.9 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10541,7 +10551,7 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:LL4148")
-		(at 99.06 158.75 0)
+		(at 101.6 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10550,7 +10560,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8959ddb-dad6-43dc-92f0-0bc16062a9b2")
 		(property "Reference" "D1"
-			(at 99.06 152.4 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10558,7 +10568,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 99.06 154.94 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,7 +10576,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:D_MiniMELF"
-			(at 99.06 158.75 0)
+			(at 101.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +10585,7 @@
 			)
 		)
 		(property "Datasheet" "datasheets/ll4148.pdf"
-			(at 99.06 158.75 0)
+			(at 101.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +10594,7 @@
 			)
 		)
 		(property "Description" "50V 1A General Purpose Rectifier Diode"
-			(at 99.06 158.75 0)
+			(at 101.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +10603,7 @@
 			)
 		)
 		(property "MPN" "FDLL4148"
-			(at 99.06 158.75 0)
+			(at 101.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

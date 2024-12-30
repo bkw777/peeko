@@ -1,0 +1,7 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP","MPN"
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25","BAS70-04","datasheets/INFNS30154-1.pdf","000_LOCAL:SC-59","25","","BAS70-04"
+"J1","Rasberry PI Pico","datasheets/rpi-pico.pdf","000_LOCAL:dip-40-700-pi-pico","1","","SC0915"
+"J2","Conn_02x15_Odd_Even","datasheets/SBH11.pdf","000_LOCAL:IDC_02x15_2.54_THT_male_pcb_edge","1","","SBH11-PBPC-D15-ST-BK"
+"J3,J4","Conn_01x02_Pin","~","000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal","2","","PH1RB-02-UA"
+"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24","220","datasheets/TE-1-2176341-7.pdf","000_LOCAL:R_0805","24","","CRGCQ0805F220R"
+"R25","100k","datasheets/PYu-RC_Group_51_RoHS_L_12.pdf","000_LOCAL:R_0805","1","","RC0805FR-07100KL"
