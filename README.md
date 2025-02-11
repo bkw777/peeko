@@ -19,6 +19,19 @@ Alternate PCB for [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyz
 
 [DigiKey](https://www.digikey.com/short/h755hpzf)  ([PEEKO.bom.csv](PCB/out/PEEKO.bom.csv))
 
+<!--
+Alternate parts for chain:  
+[header molex 2-pin male r/a](https://www.digikey.com/en/products/detail/molex/1718574002/5116867)  
+[cable molex 2-pin female-female 150mm](https://www.digikey.com/en/products/detail/molex/2177961021/14637993)  
+TODO:  
+* Zigzag pico pin holes  
+  so pico can be installed removable with only male pins soldered to the pico  
+  this elevates the pico by the same amount as the molex pin headers over the plain pin headers (2.54mm)  
+* Version of enclosure with 2.54mm taller walls  
+* Lid to close up the enclosure, with opening for heat sink for overclocked pico2
+* Printable legend for the input pins
+-->
+
 # PROBES
 
 Cable: https://www.digikey.com/en/products/detail/digilent-inc/310-064/5848557

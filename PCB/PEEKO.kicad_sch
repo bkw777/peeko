@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PEEKO")
-		(date "2024-10-05")
-		(rev "003")
+		(date "2025-02-09")
+		(rev "004")
 		(comment 1 "based on github.com/gusmanb/logicanalyzer")
 		(comment 2 "github.com/bkw777/peeko")
 	)
@@ -8892,8 +8892,7 @@
 	)
 	(symbol
 		(lib_id "000_LOCAL:Conn_01x02_Pin")
-		(at 144.78 170.18 0)
-		(mirror y)
+		(at 144.78 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8901,7 +8900,7 @@
 		(dnp no)
 		(uuid "8bd95b01-f29a-473a-ab3b-c0e7e4b2c068")
 		(property "Reference" "J4"
-			(at 144.78 178.308 0)
+			(at 144.78 178.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +8908,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 144.78 176.022 0)
+			(at 144.78 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +8916,7 @@
 			)
 		)
 		(property "Footprint" "000_LOCAL:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 144.78 170.18 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +8925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 170.18 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,7 +8934,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER R/A 2POS 2.54MM"
-			(at 144.78 170.18 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8944,7 +8943,7 @@
 			)
 		)
 		(property "MPN" "PH1RB-02-UA"
-			(at 144.78 170.18 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

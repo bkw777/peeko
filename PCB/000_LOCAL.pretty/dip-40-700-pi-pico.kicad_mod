@@ -1681,6 +1681,122 @@
 		)
 		(uuid "1256328f-4d6c-4268-a8f4-3f9b5a1222ac")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "Dwgs.User")
+		(uuid "cc17bfca-df8e-4fbb-a252-7ab44f610807")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.45 -24.9) (xy -2.1 -24.55) (xy -2.1 -23.45) (xy -2.45 -23.1) (xy -3 -23.1) (xy -3.35 -23.45)
+				(xy -3.35 -24.55) (xy -3 -24.9)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "Dwgs.User")
+		(uuid "5fa88f0d-410a-49a6-9d1f-37669bb237eb")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.2 -21.725) (xy -1.9 -21.425) (xy -1.9 -20.525) (xy -2.2 -20.225) (xy -2.65 -20.225) (xy -2.95 -20.525)
+				(xy -2.95 -21.425) (xy -2.65 -21.725)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "Dwgs.User")
+		(uuid "c88502d5-cb12-4e09-964c-0e57f50f320e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.65 -21.725) (xy 2.95 -21.425) (xy 2.95 -20.525) (xy 2.65 -20.225) (xy 2.2 -20.225) (xy 1.9 -20.525)
+				(xy 1.9 -21.425) (xy 2.2 -21.725)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "Dwgs.User")
+		(uuid "88fef717-7a38-497a-8800-dec6152c6f31")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 3 -24.9) (xy 3.35 -24.55) (xy 3.35 -23.45) (xy 3 -23.1) (xy 2.45 -23.1) (xy 2.1 -23.45) (xy 2.1 -24.55)
+				(xy 2.45 -24.9)
+			)
+		)
+	)
 	(model "${KIPRJMOD}/000_LOCAL.pretty/3d/Rasberry_Pi_Pico_R3.step"
 		(offset
 			(xyz 0 0 0.5)
