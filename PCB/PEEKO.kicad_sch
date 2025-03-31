@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PEEKO")
-		(date "2025-02-09")
-		(rev "004")
+		(date "2025-03-31")
+		(rev "005")
 		(comment 1 "based on github.com/gusmanb/logicanalyzer")
 		(comment 2 "github.com/bkw777/peeko")
 	)
@@ -6733,7 +6733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "000_LOCAL:dip-40-700-pi-pico"
+		(property "Footprint" "000_LOCAL:dip-40-700-pi-pico-z"
 			(at 241.3 95.25 90)
 			(effects
 				(font
